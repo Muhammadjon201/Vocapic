@@ -16,10 +16,6 @@ class DictionaryViewController: UIViewController {
     let photoViewModel = PhotoViewModel()
     let unsplashModel: [UnsplashPhoto] = []
     
-    var dicData: [VocaPicModel] = [
-        VocaPicModel(word: "leg", translation: "noga"),
-        VocaPicModel(word: "eye", translation: "glaza")
-    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,11 +24,9 @@ class DictionaryViewController: UIViewController {
         dictionaryTable.dataSource = self
         dictionaryTable.register(UINib(nibName: "DictionaryCell", bundle: nil), forCellReuseIdentifier: "DictionaryCell")
         
-//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(labelTapped))
-//        label.addGestureRecognizer(tapGesture)
-//        label.isUserInteractionEnabled = true
+        
     }
-    
+
     @objc func labelTapped() {
         photoViewModel.fetchRandomPhoto { [weak self] result in
             switch result {
@@ -49,12 +43,13 @@ class DictionaryViewController: UIViewController {
 
 extension DictionaryViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dicData.count
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DictionaryCell", for: indexPath) as! DictionaryCell
-        cell.update(data: dicData[indexPath.row])
+        
+        
         return cell
     }
     

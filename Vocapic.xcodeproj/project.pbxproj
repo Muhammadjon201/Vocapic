@@ -33,6 +33,13 @@
 		D52D599E2A7641E200B65B43 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D599C2A7641E200B65B43 /* HomeCollectionViewCell.swift */; };
 		D52D599F2A7641E200B65B43 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52D599D2A7641E200B65B43 /* HomeCollectionViewCell.xib */; };
 		D52D59A22A76435200B65B43 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D59A12A76435200B65B43 /* Categories.swift */; };
+		D5385EA62A90F4C200D39116 /* UICollectionVIewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EA52A90F4C200D39116 /* UICollectionVIewExtensions.swift */; };
+		D5385EAC2A90F6C700D39116 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EAB2A90F6C700D39116 /* UITableViewExtensions.swift */; };
+		D5385EAF2A90F86000D39116 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EAD2A90F86000D39116 /* TableViewController.swift */; };
+		D5385EB02A90F86100D39116 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5385EAE2A90F86000D39116 /* TableViewController.xib */; };
+		D5385EB22A90F97100D39116 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB12A90F97100D39116 /* UIAlertControllerExtension.swift */; };
+		D5385EB42A91C54600D39116 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB32A91C54600D39116 /* UIColorExtensions.swift */; };
+		D5385EB62A91C70F00D39116 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */; };
 		D5D986102A7A10C0001520F1 /* vocapic.json in Resources */ = {isa = PBXBuildFile; fileRef = D5D9860F2A7A10BF001520F1 /* vocapic.json */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +72,13 @@
 		D52D599C2A7641E200B65B43 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		D52D599D2A7641E200B65B43 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		D52D59A12A76435200B65B43 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		D5385EA52A90F4C200D39116 /* UICollectionVIewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionVIewExtensions.swift; sourceTree = "<group>"; };
+		D5385EAB2A90F6C700D39116 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		D5385EAD2A90F86000D39116 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D5385EAE2A90F86000D39116 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		D5385EB12A90F97100D39116 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		D5385EB32A91C54600D39116 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		D5D9860F2A7A10BF001520F1 /* vocapic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocapic.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +188,7 @@
 		D52D597D2A763B1200B65B43 /* Vocapic */ = {
 			isa = PBXGroup;
 			children = (
+				D5385EA42A90F49B00D39116 /* Extension */,
 				D513335D2A7FC57B00666DFB /* ViewModel */,
 				D51333542A7FC26500666DFB /* Base */,
 				D52D59A02A76433800B65B43 /* Model */,
@@ -186,6 +201,8 @@
 				D52D59892A763B1900B65B43 /* LaunchScreen.storyboard */,
 				D52D598C2A763B1900B65B43 /* Info.plist */,
 				D5D9860F2A7A10BF001520F1 /* vocapic.json */,
+				D5385EAD2A90F86000D39116 /* TableViewController.swift */,
+				D5385EAE2A90F86000D39116 /* TableViewController.xib */,
 			);
 			path = Vocapic;
 			sourceTree = "<group>";
@@ -208,6 +225,18 @@
 				D51333732A8913EB00666DFB /* UnsplashPhotoModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D5385EA42A90F49B00D39116 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5385EA52A90F4C200D39116 /* UICollectionVIewExtensions.swift */,
+				D5385EAB2A90F6C700D39116 /* UITableViewExtensions.swift */,
+				D5385EB12A90F97100D39116 /* UIAlertControllerExtension.swift */,
+				D5385EB32A91C54600D39116 /* UIColorExtensions.swift */,
+				D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +301,7 @@
 				D52D599F2A7641E200B65B43 /* HomeCollectionViewCell.xib in Resources */,
 				D5D986102A7A10C0001520F1 /* vocapic.json in Resources */,
 				D51333682A835B5E00666DFB /* DetailViewController.xib in Resources */,
+				D5385EB02A90F86100D39116 /* TableViewController.xib in Resources */,
 				D52D598B2A763B1900B65B43 /* LaunchScreen.storyboard in Resources */,
 				D52D59882A763B1900B65B43 /* Assets.xcassets in Resources */,
 				D52D59862A763B1200B65B43 /* Main.storyboard in Resources */,
@@ -288,9 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5385EA62A90F4C200D39116 /* UICollectionVIewExtensions.swift in Sources */,
 				D52D599E2A7641E200B65B43 /* HomeCollectionViewCell.swift in Sources */,
 				D51333722A8900C000666DFB /* VocaPicModel.swift in Sources */,
+				D5385EAF2A90F86000D39116 /* TableViewController.swift in Sources */,
 				D513336B2A835B9400666DFB /* DetailCollectionViewCell.swift in Sources */,
+				D5385EB22A90F97100D39116 /* UIAlertControllerExtension.swift in Sources */,
 				D52D59832A763B1200B65B43 /* ViewController.swift in Sources */,
 				D52D597F2A763B1200B65B43 /* AppDelegate.swift in Sources */,
 				D51333672A835B5E00666DFB /* DetailViewController.swift in Sources */,
@@ -301,6 +334,9 @@
 				D513335C2A7FC4C800666DFB /* DefaultState.swift in Sources */,
 				D513337D2A8916D800666DFB /* DictionaryCell.swift in Sources */,
 				D51333562A7FC2C300666DFB /* BaseResponse.swift in Sources */,
+				D5385EAC2A90F6C700D39116 /* UITableViewExtensions.swift in Sources */,
+				D5385EB62A91C70F00D39116 /* UIImageViewExtensions.swift in Sources */,
+				D5385EB42A91C54600D39116 /* UIColorExtensions.swift in Sources */,
 				D52D59952A763B8500B65B43 /* HomeViewController.swift in Sources */,
 				D51333582A7FC3E600666DFB /* BaseState.swift in Sources */,
 				D51333782A89156900666DFB /* DictionaryViewController.swift in Sources */,

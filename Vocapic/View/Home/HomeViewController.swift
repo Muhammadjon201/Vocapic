@@ -9,13 +9,16 @@ import UIKit
 
 
 class HomeViewController: UIViewController {
+    
     @IBOutlet var topView: UIView! {
         didSet{
             topView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         }
     }
     
-    var items: [CategoryDetail] = []
+    var receivedData: Welcome?
+
+    
     
     @IBOutlet var homecollectionView: UICollectionView!
 
@@ -24,61 +27,54 @@ class HomeViewController: UIViewController {
         homecollectionView.delegate = self
         homecollectionView.dataSource = self
         homecollectionView.register(UINib(nibName: "HomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeCollectionViewCell")
-        
-        if let parsedItems = parseJSONFromFile() {
-                    items = parsedItems
-            homecollectionView.reloadData()
-        }
-        
-        parseJSONFromFile()
-                
+        parseJson()
     }
     
-    func parseJSONFromFile() -> [CategoryDetail]? {
-        if let path = Bundle.main.path(forResource: "vocapic", ofType: "json"),
-            let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) {
-            
-            let decoder = JSONDecoder()
-            
-            do {
-                let items = try decoder.decode([CategoryDetail].self, from: jsonData)
-                return items
-            } catch {
-                print("Error decoding JSON: \(error)")
-                return nil
-            }
+    func parseJson() -> Welcome? {
+      if let fileLocation = Bundle.main.url(forResource: "vocapic", withExtension: "json") {
+        
+        do {
+          let data = try Data(contentsOf: fileLocation)
+          let decoder = JSONDecoder()
+          let receivedData = try decoder.decode(Welcome.self, from: data)
+          self.receivedData = receivedData
+          //print(receivedData)
+          DispatchQueue.main.async {
+            self.homecollectionView.reloadData()
+          }
         }
-        return nil
+        catch {
+          print("Error on decoding \(error)")
+        }
+      }
+      return nil
     }
-
+    
 }
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return items.count
+        return receivedData?.categoryDetails.count ?? 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCollectionViewCell", for: indexPath) as! HomeCollectionViewCell
-        
-        //cell.updateCell(data: items[indexPath.row])
-        
-        
+
+        guard let categories = receivedData?.categoryDetails else {
+                return cell
+            }
+
+            let category = categories[indexPath.row]
+            cell.updateCell(data: category.category)
+
         return cell
     }
-    
+
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        let collectionHeight = collectionView.bounds.height
-//        let height = collectionHeight * 0.08
         return CGSize(width: collectionView.bounds.width, height: 80)
     }
-    
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        <#code#>
-//    }
-    
 }
 
 

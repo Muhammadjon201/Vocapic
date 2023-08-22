@@ -5,19 +5,10 @@
 //  Created by ericzero on 7/30/23.
 //
 
+
+
 import UIKit
-
-//struct Categories {
-//    var backgroundImage: UIImage?
-//    var typeLabel: String?
-//}
-//
-//struct DetailInfo {
-//    var detailImage: UIImage?
-//    var detailLabel: String?
-//}
-//
-
+import Foundation
 
 // MARK: - Welcome
 struct Welcome: Codable {
@@ -25,7 +16,7 @@ struct Welcome: Codable {
 }
 
 // MARK: - CategoryDetail
-struct CategoryDetail: Codable {
+struct CategoryDetail: String, Codable {
     let category: String
     let subcategoryDetails: [SubcategoryDetail]
 }
@@ -39,12 +30,12 @@ struct SubcategoryDetail: Codable {
 // MARK: - Vocabulary
 struct Vocabulary: Codable {
     let part, translation: String
-    let image: String?
+    //let image: Image?
 }
 
-enum Image: String, Codable {
-    case pathToChestImageJpg = "food"
-    case pathToNeckImageJpg = "home"
-}
-
-
+//enum Image: String, Codable {
+//    case empty = ""
+//    case food = "food"
+//    case pathToChestImageJpg = "path/to/chest_image.jpg"
+//    case pathToNeckImageJpg = "path/to/neck_image.jpg"
+//}

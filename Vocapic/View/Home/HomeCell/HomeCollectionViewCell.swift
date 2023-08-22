@@ -8,7 +8,6 @@
 import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
-    @IBOutlet var backGroundImage: UIImageView!
     
     @IBOutlet var categoryLabel: UILabel!
     
@@ -16,10 +15,8 @@ class HomeCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-//
-//    func updateCell(data: Vocabulary) {
-//        backGroundImage.image = data.image ?? ""
-//        categoryLabel.text = data.category
-//    }
-//    
+    
+    func updateCell(data: String) {
+        categoryLabel.text = data
+    }
 }
