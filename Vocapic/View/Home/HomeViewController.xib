@@ -42,11 +42,22 @@
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
+                            <connections>
+                                <action selector="starTap:" destination="-1" eventType="touchUpOutside" id="lKE-qj-unf"/>
+                            </connections>
                         </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocapic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-Yg-twk">
+                            <rect key="frame" x="151" y="60.666666666666657" width="91" height="29"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="S4D-Yg-twk" firstAttribute="centerX" secondItem="RYV-TN-sqD" secondAttribute="centerX" id="1QZ-lw-0j0"/>
                         <constraint firstAttribute="trailing" secondItem="7Wo-JC-38t" secondAttribute="trailing" constant="15" id="50t-8u-iAf"/>
+                        <constraint firstItem="S4D-Yg-twk" firstAttribute="centerY" secondItem="9dv-Gt-DP2" secondAttribute="centerY" id="Q2A-El-EAH"/>
                         <constraint firstAttribute="bottom" secondItem="9dv-Gt-DP2" secondAttribute="bottom" constant="15" id="ece-hO-bkk"/>
                         <constraint firstItem="9dv-Gt-DP2" firstAttribute="leading" secondItem="RYV-TN-sqD" secondAttribute="leading" constant="15" id="lGL-ra-uMe"/>
                         <constraint firstAttribute="bottom" secondItem="7Wo-JC-38t" secondAttribute="bottom" constant="15" id="tfm-Qx-cNp"/>

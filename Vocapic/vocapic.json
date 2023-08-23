@@ -1,16 +1,9 @@
-//
-//  vocapic.json
-//  Vocapic
-//
-//  Created by ericzero on 8/2/23.
-//
-
-import Foundation
 
 {
    "categoryDetails": [
       {
          "category": "People",
+         "categoryImage": "people.jpg",
          "subcategoryDetails": [
             {
                "subcategory": "Body",
@@ -791,6 +784,7 @@ import Foundation
       },
       {
          "category": "Appearance",
+         "categoryImage": "appearance.jpg",
          "subcategoryDetails": [
             {
                "subcategory": "Child",
@@ -1371,6 +1365,7 @@ import Foundation
       },
       {
          "category": "Health",
+         "categoryImage": "health.jpg",
          "subcategoryDetails": [
             {
                "subcategory": "Illness",
@@ -1591,6 +1586,7 @@ import Foundation
       },
       {
          "category": "Home",
+         "categoryImage": "home",
          "subcategoryDetails": [
             {
                "subcategory": "House",

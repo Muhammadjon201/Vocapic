@@ -16,8 +16,9 @@ struct Welcome: Codable {
 }
 
 // MARK: - CategoryDetail
-struct CategoryDetail: String, Codable {
+struct CategoryDetail: Codable {
     let category: String
+    let categoryImage: String?
     let subcategoryDetails: [SubcategoryDetail]
 }
 

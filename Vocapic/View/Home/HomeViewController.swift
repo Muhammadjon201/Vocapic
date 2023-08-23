@@ -16,9 +16,7 @@ class HomeViewController: UIViewController {
         }
     }
     
-    var receivedData: Welcome?
-
-    
+    var categories: [CategoryDetail] = []
     
     @IBOutlet var homecollectionView: UICollectionView!
 
@@ -29,25 +27,25 @@ class HomeViewController: UIViewController {
         homecollectionView.register(UINib(nibName: "HomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeCollectionViewCell")
         parseJson()
     }
+
+    @IBAction func starTap(_ sender: Any) {
+        print("action")
+    }
     
-    func parseJson() -> Welcome? {
-      if let fileLocation = Bundle.main.url(forResource: "vocapic", withExtension: "json") {
-        
-        do {
-          let data = try Data(contentsOf: fileLocation)
-          let decoder = JSONDecoder()
-          let receivedData = try decoder.decode(Welcome.self, from: data)
-          self.receivedData = receivedData
-          //print(receivedData)
-          DispatchQueue.main.async {
-            self.homecollectionView.reloadData()
-          }
+    func parseJson() {
+        if let fileLocation = Bundle.main.url(forResource: "vocapic", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: fileLocation)
+                let decoder = JSONDecoder()
+                let receivedData = try decoder.decode(Welcome.self, from: data)
+                self.categories = receivedData.categoryDetails
+                DispatchQueue.main.async {
+                    self.homecollectionView.reloadData()
+                }
+            } catch {
+                print("Error on decoding \(error)")
+            }
         }
-        catch {
-          print("Error on decoding \(error)")
-        }
-      }
-      return nil
     }
     
 }
@@ -55,25 +53,34 @@ class HomeViewController: UIViewController {
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return receivedData?.categoryDetails.count ?? 1
+        return categories.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCollectionViewCell", for: indexPath) as! HomeCollectionViewCell
-
-        guard let categories = receivedData?.categoryDetails else {
-                return cell
-            }
-
-            let category = categories[indexPath.row]
-            cell.updateCell(data: category.category)
-
+        
+        let category = categories[indexPath.row]
+        cell.updateCell(data: category)
+        
         return cell
     }
 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.bounds.width, height: 80)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let selectedCategory = categories[indexPath.row]
+               
+        let detailViewController = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        detailViewController.selectedCategory = selectedCategory
+        
+        detailViewController.categoryTitle = UILabel()
+               
+        navigationController?.pushViewController(detailViewController, animated: true)
+        
     }
 }
 

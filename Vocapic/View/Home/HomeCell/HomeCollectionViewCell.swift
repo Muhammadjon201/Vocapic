@@ -9,6 +9,8 @@ import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet var homeBackgroundImage: UIImageView!
+    
     @IBOutlet var categoryLabel: UILabel!
     
     override func awakeFromNib() {
@@ -16,7 +18,11 @@ class HomeCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
-    func updateCell(data: String) {
-        categoryLabel.text = data
+    func updateCell(data: CategoryDetail) {
+        categoryLabel.text = data.category
+        
+        if let categoryImage = data.categoryImage {
+            homeBackgroundImage.image = UIImage(named: categoryImage)
+        }
     }
 }

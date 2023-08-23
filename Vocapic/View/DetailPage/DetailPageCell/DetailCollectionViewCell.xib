@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="5" width="281" height="88"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appearance" translatesAutoresizingMaskIntoConstraints="NO" id="Eyg-Ao-WSv">
-                                <rect key="frame" x="10" y="10" width="95" height="68"/>
+                                <rect key="frame" x="15" y="10" width="95" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="7fN-ez-icb"/>
                                     <constraint firstAttribute="width" constant="95" id="vPG-8f-8cY"/>
@@ -32,7 +32,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfV-Nh-FyL">
-                                <rect key="frame" x="125" y="29.666666666666664" width="54" height="29"/>
+                                <rect key="frame" x="130" y="29.666666666666664" width="54" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -51,9 +51,14 @@
                             <constraint firstItem="PfV-Nh-FyL" firstAttribute="leading" secondItem="Eyg-Ao-WSv" secondAttribute="trailing" constant="20" id="Lb6-4z-n4y"/>
                             <constraint firstItem="Eyg-Ao-WSv" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="PjP-vG-mNT"/>
                             <constraint firstItem="PfV-Nh-FyL" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="gyv-eD-O4D"/>
-                            <constraint firstItem="Eyg-Ao-WSv" firstAttribute="leading" secondItem="B8L-dM-ku4" secondAttribute="leading" constant="10" id="qfd-ny-hF9"/>
+                            <constraint firstItem="Eyg-Ao-WSv" firstAttribute="leading" secondItem="B8L-dM-ku4" secondAttribute="leading" constant="15" id="qfd-ny-hF9"/>
                             <constraint firstItem="gLZ-4M-W2a" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="s6g-u9-eEu"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
             </view>

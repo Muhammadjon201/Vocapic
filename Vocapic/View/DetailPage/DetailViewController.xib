@@ -10,6 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
+                <outlet property="categoryTitle" destination="ghJ-UM-hYa" id="1PA-7o-jCO"/>
+                <outlet property="detailCollection" destination="wIM-xf-Q6M" id="q7d-CH-H0Q"/>
+                <outlet property="detailTop" destination="EV7-xb-plb" id="hLa-lM-hEF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -26,9 +29,41 @@
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EV7-xb-plb">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="102.33333333333333"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubCategory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghJ-UM-hYa">
+                            <rect key="frame" x="121.66666666666669" y="60.666666666666657" width="150" height="29"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2s-Nn-OS0">
+                            <rect key="frame" x="15" y="63.333333333333343" width="12" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="Ood-57-O2r"/>
+                                <constraint firstAttribute="height" constant="24" id="pCX-Ws-Bba"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="o1F-o2-W4c"/>
+                            </connections>
+                        </button>
+                    </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="O2s-Nn-OS0" firstAttribute="leading" secondItem="EV7-xb-plb" secondAttribute="leading" constant="15" id="Ida-4V-78K"/>
+                        <constraint firstAttribute="bottom" secondItem="O2s-Nn-OS0" secondAttribute="bottom" constant="15" id="j5i-Eq-zfB"/>
+                        <constraint firstItem="ghJ-UM-hYa" firstAttribute="centerY" secondItem="O2s-Nn-OS0" secondAttribute="centerY" id="o2B-Dc-Irx"/>
+                        <constraint firstItem="ghJ-UM-hYa" firstAttribute="centerX" secondItem="EV7-xb-plb" secondAttribute="centerX" id="yup-oQ-3Za"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-xf-Q6M">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-xf-Q6M">
                     <rect key="frame" x="15" y="241" width="363" height="577"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Gb4-CK-LMi">

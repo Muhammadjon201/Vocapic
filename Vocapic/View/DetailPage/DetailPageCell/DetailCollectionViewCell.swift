@@ -23,9 +23,9 @@ class DetailCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
-//    func detailData(data: DetailInfo) {
-//        detailImageView.image = data.detailImage
-//        detailLabel.text = data.detailLabel
-//    }
+    func updateDetailPage(data: SubcategoryDetail) {
+        detailLabel.text = data.subcategory
+
+    }
 
 }

@@ -41,6 +41,8 @@
 		D5385EB42A91C54600D39116 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB32A91C54600D39116 /* UIColorExtensions.swift */; };
 		D5385EB62A91C70F00D39116 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */; };
 		D5D986102A7A10C0001520F1 /* vocapic.json in Resources */ = {isa = PBXBuildFile; fileRef = D5D9860F2A7A10BF001520F1 /* vocapic.json */; };
+		D5E03FD62A9686D000E6A1C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */; };
+		D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		D5385EB32A91C54600D39116 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		D5D9860F2A7A10BF001520F1 /* vocapic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocapic.json; sourceTree = "<group>"; };
+		D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 				D513337A2A8916A600666DFB /* Cell */,
 				D51333762A89156900666DFB /* DictionaryViewController.swift */,
 				D51333772A89156900666DFB /* DictionaryViewController.xib */,
+				D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */,
+				D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */,
 			);
 			path = TableViewDictionary;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 				D5385EB02A90F86100D39116 /* TableViewController.xib in Resources */,
 				D52D598B2A763B1900B65B43 /* LaunchScreen.storyboard in Resources */,
 				D52D59882A763B1900B65B43 /* Assets.xcassets in Resources */,
+				D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */,
 				D52D59862A763B1200B65B43 /* Main.storyboard in Resources */,
 				D513337E2A8916D800666DFB /* DictionaryCell.xib in Resources */,
 				D52D59962A763B8500B65B43 /* HomeViewController.xib in Resources */,
@@ -341,6 +348,7 @@
 				D51333582A7FC3E600666DFB /* BaseState.swift in Sources */,
 				D51333782A89156900666DFB /* DictionaryViewController.swift in Sources */,
 				D52D59A22A76435200B65B43 /* Categories.swift in Sources */,
+				D5E03FD62A9686D000E6A1C6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
