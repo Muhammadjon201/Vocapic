@@ -26,6 +26,9 @@ class DetailCollectionViewCell: UICollectionViewCell {
     func updateDetailPage(data: SubcategoryDetail) {
         detailLabel.text = data.subcategory
 
+        if let detailImage = data.subcategoryImage {
+            detailImageView.image = UIImage(named: detailImage)
+        }
     }
 
 }

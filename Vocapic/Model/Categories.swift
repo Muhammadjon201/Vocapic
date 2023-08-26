@@ -25,6 +25,7 @@ struct CategoryDetail: Codable {
 // MARK: - SubcategoryDetail
 struct SubcategoryDetail: Codable {
     let subcategory: String
+    let subcategoryImage: String?
     let vocabulary: [Vocabulary]
 }
 

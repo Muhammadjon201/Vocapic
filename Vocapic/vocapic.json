@@ -7,6 +7,7 @@
          "subcategoryDetails": [
             {
                "subcategory": "Body",
+               "subcategoryImage": "body",
                "vocabulary": [
                   {
                      "part": "neck",
@@ -127,6 +128,7 @@
             },
             {
                "subcategory": "Face",
+               "subcategoryImage": "appearance",
                "vocabulary": [
                   {
                      "part": "hair",
@@ -222,6 +224,7 @@
             },
             {
                "subcategory": "Hand",
+               "subcategoryImage": "hand",
                "vocabulary": [
                   {
                      "part": "ring finger",
@@ -277,6 +280,7 @@
             },
             {
                "subcategory": "Foot",
+               "subcategoryImage": "foot",
                "vocabulary": [
                   {
                      "part": "tole",
@@ -322,6 +326,7 @@
             },
             {
                "subcategory": "Muscles",
+               "subcategoryImage": "muscles",
                "vocabulary": [
                   {
                      "part": "frontal",
@@ -387,6 +392,7 @@
             },
             {
                 "subcategory": "Family",
+                "subcategoryImage": "family",
                 "vocabulary": [
                     {
                        "part": "grandfather",
@@ -517,6 +523,7 @@
             },
             {
                 "subcategory": "Relationship",
+                "subcategoryImage": "relationship",
                 "vocabulary": [
                     {
                        "part": "assistant",
@@ -582,6 +589,7 @@
             },
             {
                 "subcategory": "Emotions",
+                "subcategoryImage": "emotions",
                 "vocabulary": [
                     {
                        "part": "smile",
@@ -662,6 +670,7 @@
             },
             {
                 "subcategory": "Life Events",
+                "subcategoryImage": "lifeevents",
                 "vocabulary": [
                     {
                        "part": "be born",
@@ -717,6 +726,7 @@
             },
             {
                 "subcategory": "Celebrations",
+                "subcategoryImage": "celebrations",
                 "vocabulary": [
                     {
                        "part": "birthday",
@@ -868,6 +878,7 @@
             },
             {
                "subcategory": "Men's Clothing",
+               "subcategoryImage": "men clothing",
                "vocabulary": [
                   {
                      "part": "collar",
@@ -1003,6 +1014,7 @@
             },
             {
                "subcategory": "Women's Clothing",
+               "subcategoryImage": "women clothing",
                "vocabulary": [
                   {
                      "part": "jacket",
@@ -1118,6 +1130,7 @@
             },
             {
                "subcategory": "Accessories",
+               "subcategoryImage": "accessories",
                "vocabulary": [
                   {
                      "part": "cap",
@@ -1163,6 +1176,7 @@
             },
             {
                "subcategory": "Jewelry",
+               "subcategoryImage": "jewelry",
                "vocabulary": [
                   {
                      "part": "pendant",
@@ -1203,6 +1217,7 @@
             },
             {
                "subcategory": "Bags",
+               "subcategoryImage": "bags",
                "vocabulary": [
                   {
                      "part": "wallet",
@@ -1233,6 +1248,7 @@
             },
             {
                "subcategory": "Shoes",
+               "subcategoryImage": "shoes",
                "vocabulary": [
                   {
                      "part": "lace",
@@ -1288,6 +1304,7 @@
             },
             {
                "subcategory": "Beauty",
+               "subcategoryImage": "beauty",
                "vocabulary": [
                   {
                      "part": "makeup",
@@ -1369,6 +1386,7 @@
          "subcategoryDetails": [
             {
                "subcategory": "Illness",
+               "subcategoryImage": "heart",
                "vocabulary": [
                   {
                      "part": "fever",
@@ -1424,6 +1442,7 @@
             },
             {
                "subcategory": "Doctor",
+               "subcategoryImage": "doctor",
                "vocabulary": [
                   {
                      "part": "doctor",
@@ -1464,6 +1483,7 @@
             },
             {
                "subcategory": "Hospital",
+               "subcategoryImage": "hospital",
                "vocabulary": [
                   {
                      "part": "surgeon",
@@ -1519,6 +1539,7 @@
             },
             {
                "subcategory": "Departments",
+               "subcategoryImage": "departments",
                "vocabulary": [
                   {
                      "part": "ear, nose and throat",
@@ -1590,6 +1611,7 @@
          "subcategoryDetails": [
             {
                "subcategory": "House",
+               "subcategoryImage": "subHome",
                "vocabulary": [
                   {
                      "part": "roof",
@@ -1645,6 +1667,7 @@
             },
             {
                "subcategory": "Entrance",
+               "subcategoryImage": "entrance",
                "vocabulary": [
                   {
                      "part": "hand rail",
@@ -1710,6 +1733,7 @@
             },
             {
                "subcategory": "Living room",
+               "subcategoryImage": "livingroom",
                "vocabulary": [
                   {
                      "part": "fireplace",
@@ -1800,6 +1824,7 @@
             },
             {
                "subcategory": "Dining room",
+               "subcategoryImage": "diningroom",
                "vocabulary": [
                   {
                      "part": "table",
@@ -1840,24 +1865,776 @@
                      "part": "leg",
                      "translation": "ножка",
                      "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Appliances",
+               "subcategoryImage": "appliances",
+               "vocabulary": [
+                  {
+                     "part": "microvawe oven",
+                     "translation": "микроволновая печь",
+                     "image": "path/to/neck_image.jpg"
                   },
                   {
-                     "part": "",
-                     "translation": "хирургия",
+                     "part": "electric kettle",
+                     "translation": "электрический чайник",
                      "image": "path/to/chest_image.jpg"
                   },
                   {
-                     "part": "maternity",
-                     "translation": "роддом",
+                     "part": "toaster",
+                     "translation": "тостер",
                      "image": "path/to/chest_image.jpg"
                   },
                   {
-                     "part": "psychiatry",
-                     "translation": "психиатрия"
+                     "part": "food processor",
+                     "translation": "кухонный комбайн",
+                     "image": "path/to/chest_image.jpg"
                   },
                   {
-                     "part": "ophtalmology",
-                     "translation": "офтальмология"
+                     "part": "blender",
+                     "translation": "блендер",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "dishwasher",
+                     "translation": "посудомоечная машина",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "freezer",
+                     "translation": "морозильник",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fridge",
+                     "translation": "холодильник",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fridge shelf",
+                     "translation": "полка холодильника",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Kitchenware",
+               "subcategoryImage": "kitchenware",
+               "vocabulary": [
+                  {
+                     "part": "cutting board",
+                     "translation": "разделочная доска",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "kitchen knife",
+                     "translation": "кухонный нож",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "skewer",
+                     "translation": "шампур",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "grater",
+                     "translation": "терка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "mortar",
+                     "translation": "ступка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "can opener",
+                     "translation": "открывашка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "carlic press",
+                     "translation": "пресс для чеснока",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "serving spoon",
+                     "translation": "сервировочная ложка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "wooden spoon",
+                     "translation": "деревянная ложка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ice-cream scoop",
+                     "translation": "ложка для мороженого",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "frying pan",
+                     "translation": "Сковорода",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "vok",
+                     "translation": "вок",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "mixing bowl",
+                     "translation": "миска",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ramekin",
+                     "translation": "формочка",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Garden tools",
+               "subcategoryImage": "garden tools",
+               "vocabulary": [
+                  {
+                     "part": "spade",
+                     "translation": "лопата",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "fork",
+                     "translation": "вилы",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "rake",
+                     "translation": "грабли",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "hoe",
+                     "translation": "мотыга",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "garden trimmer",
+                     "translation": "садовый триммер",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "lawnmover",
+                     "translation": "газонокосилка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "wheelbarrow",
+                     "translation": "пресс для чеснока",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "pruners",
+                     "translation": "секаторы",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "gardening gloves",
+                     "translation": "садовые перчатки",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "rubber boots",
+                     "translation": "резиновые сапоги",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "plant pot",
+                     "translation": "Горшок для растений",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "seed tray",
+                     "translation": "лоток для семян",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "sieve",
+                     "translation": "сито",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "category": "Services",
+         "categoryImage": "service",
+         "subcategoryDetails": [
+            {
+               "subcategory": "Emergency services",
+               "subcategoryImage": "emergencyServices",
+               "vocabulary": [
+                  {
+                     "part": "paramedic",
+                     "translation": "фельдшер",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "police uniform",
+                     "translation": "полицейская форма",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "siren",
+                     "translation": "сирена",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "police station",
+                     "translation": "полицейский участок",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "nightstick",
+                     "translation": "дубинка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "gun",
+                     "translation": "пистолет",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "handcuffs",
+                     "translation": "наручники",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Fire Department",
+               "subcategoryImage": "firedepartment",
+               "vocabulary": [
+                  {
+                     "part": "smoke",
+                     "translation": "дым",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "helmet",
+                     "translation": "шлем",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "water jet",
+                     "translation": "струя воды",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "firefighters",
+                     "translation": "пожарные",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ladder",
+                     "translation": "лестница",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "firestation",
+                     "translation": "пожарная станция",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "smoke alarm",
+                     "translation": "дымовая сигнализация",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fire alarm",
+                     "translation": "Пожарная тревога",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ax",
+                     "translation": "топор",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fire extinguisher",
+                     "translation": "fire extinguisher",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "hydrant",
+                     "translation": "гидрант",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Bank",
+               "subcategoryImage": "bank",
+               "vocabulary": [
+                  {
+                     "part": "customer",
+                     "translation": "клиент",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "window",
+                     "translation": "окно",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "teller",
+                     "translation": "кассир",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "brochures",
+                     "translation": "брошюры",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "counter",
+                     "translation": "прилавок",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "debit card",
+                     "translation": "дебетовая карточка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "credit card",
+                     "translation": "кредитная карта",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "account number",
+                     "translation": "номер счета",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "signature",
+                     "translation": "подпись",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "amount",
+                     "translation": "сумма",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "coin",
+                     "translation": "монета",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "exchange rate",
+                     "translation": "обменный курс",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stock price",
+                     "translation": "цена акции",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stockbroker",
+                     "translation": "биржевой маклер",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Communication",
+               "subcategoryImage": "communication",
+               "vocabulary": [
+                  {
+                     "part": "postal worker",
+                     "translation": "почтальон",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "postmark",
+                     "translation": "почтовый штемпель",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "address",
+                     "translation": "адрес",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stamp",
+                     "translation": "печать",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "zip code",
+                     "translation": "почтовый индекс",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "mailbox",
+                     "translation": "почтовый ящик",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "parcel",
+                     "translation": "посылка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "courier",
+                     "translation": "курьер",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Hotel",
+               "subcategoryImage": "hotel",
+               "vocabulary": [
+                  {
+                     "part": "lobby",
+                     "translation": "лобби",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "guest",
+                     "translation": "гость",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "room key",
+                     "translation": "ключ от комнаты",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "messages",
+                     "translation": "Сообщения",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "receptionist",
+                     "translation": "регистратор",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "porter",
+                     "translation": "швейцар",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "luggage",
+                     "translation": "багаж",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "elevator",
+                     "translation": "лифт",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "room number",
+                     "translation": "номер комнаты",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "category": "Shopping",
+         "categoryImage": "shopping",
+         "subcategoryDetails": [
+            {
+               "subcategory": "Supermarket",
+               "subcategoryImage": "",
+               "vocabulary": [
+                  {
+                     "part": "aisle",
+                     "translation": "проход",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "shelf",
+                     "translation": "полка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "conveyer belt",
+                     "translation": "конвейерная лента",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "customer",
+                     "translation": "клиент",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "cash resgister",
+                     "translation": "кассовый аппарат",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "shopping bag",
+                     "translation": "сумка для покупок",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "cart",
+                     "translation": "тележка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "cart",
+                     "translation": "тележка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "cart",
+                     "translation": "тележка",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Fire Department",
+               "subcategoryImage": "firedepartment",
+               "vocabulary": [
+                  {
+                     "part": "smoke",
+                     "translation": "дым",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "helmet",
+                     "translation": "шлем",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "water jet",
+                     "translation": "струя воды",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "firefighters",
+                     "translation": "пожарные",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ladder",
+                     "translation": "лестница",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "firestation",
+                     "translation": "пожарная станция",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "smoke alarm",
+                     "translation": "дымовая сигнализация",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fire alarm",
+                     "translation": "Пожарная тревога",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "ax",
+                     "translation": "топор",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "fire extinguisher",
+                     "translation": "fire extinguisher",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "hydrant",
+                     "translation": "гидрант",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Bank",
+               "subcategoryImage": "bank",
+               "vocabulary": [
+                  {
+                     "part": "customer",
+                     "translation": "клиент",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "window",
+                     "translation": "окно",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "teller",
+                     "translation": "кассир",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "brochures",
+                     "translation": "брошюры",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "counter",
+                     "translation": "прилавок",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "debit card",
+                     "translation": "дебетовая карточка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "credit card",
+                     "translation": "кредитная карта",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "account number",
+                     "translation": "номер счета",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "signature",
+                     "translation": "подпись",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "amount",
+                     "translation": "сумма",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "coin",
+                     "translation": "монета",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "exchange rate",
+                     "translation": "обменный курс",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stock price",
+                     "translation": "цена акции",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stockbroker",
+                     "translation": "биржевой маклер",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Communication",
+               "subcategoryImage": "communication",
+               "vocabulary": [
+                  {
+                     "part": "postal worker",
+                     "translation": "почтальон",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "postmark",
+                     "translation": "почтовый штемпель",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "address",
+                     "translation": "адрес",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "stamp",
+                     "translation": "печать",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "zip code",
+                     "translation": "почтовый индекс",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "mailbox",
+                     "translation": "почтовый ящик",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "parcel",
+                     "translation": "посылка",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "courier",
+                     "translation": "курьер",
+                     "image": "path/to/chest_image.jpg"
+                  }
+               ]
+            },
+            {
+               "subcategory": "Hotel",
+               "subcategoryImage": "hotel",
+               "vocabulary": [
+                  {
+                     "part": "lobby",
+                     "translation": "лобби",
+                     "image": "path/to/neck_image.jpg"
+                  },
+                  {
+                     "part": "guest",
+                     "translation": "гость",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "room key",
+                     "translation": "ключ от комнаты",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "messages",
+                     "translation": "Сообщения",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "receptionist",
+                     "translation": "регистратор",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "porter",
+                     "translation": "швейцар",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "luggage",
+                     "translation": "багаж",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "elevator",
+                     "translation": "лифт",
+                     "image": "path/to/chest_image.jpg"
+                  },
+                  {
+                     "part": "room number",
+                     "translation": "номер комнаты",
+                     "image": "path/to/chest_image.jpg"
                   }
                ]
             }
