@@ -32,6 +32,14 @@ class HomeViewController: UIViewController {
         print("action")
     }
     
+    
+    @IBAction func menuBtnTapped(_ sender: Any) {
+        
+        let vc = ContainerViewController()
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
     func parseJson() {
         if let fileLocation = Bundle.main.url(forResource: "vocapic", withExtension: "json") {
             do {

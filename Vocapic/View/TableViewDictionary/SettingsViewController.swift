@@ -9,11 +9,26 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+//    lazy var customView: UIView = {
+//        let view = UIView()
+//        view.backgroundColor = .systemPink
+//        view.layer.cornerRadius = 12
+//        return view
+//    }()
+//    
+//    
+//    var alertV: UIAlertController = {
+//        let alert = UIAlertController()
+//    
+//        return alert
+//    }()
 
-        // Do any additional setup after loading the view.
+    override func viewDidLoad() {
+    
     }
 
+    func setUI(){
+        
+    }
 
 }

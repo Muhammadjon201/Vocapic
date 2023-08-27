@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DictionaryViewController: UIViewController {
-
+    
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var vocabularyTitle: UILabel!
@@ -28,7 +29,7 @@ class DictionaryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         vocabularyTitle.text = selectedVocabulary?.subcategory
         
         dictionaryTable.delegate = self
@@ -62,9 +63,11 @@ class DictionaryViewController: UIViewController {
         
       print("worked")
         
+        let customAlertView = CustomAlert(frame: CGRect(x: 0, y: 0, width: 300, height: 400))
+        customAlertView.center = view.center
+        view.addSubview(customAlertView)
+        
     }
-    
-    
     
     func handleMicButtonTap(at index: Int) {
         selectedMicIndex = index
@@ -117,7 +120,6 @@ extension DictionaryViewController: UITableViewDelegate, UITableViewDataSource {
         
         selectedCellIndex = indexPath.row
 
-               
         tableView.reloadData()
         
     }

@@ -61,7 +61,4 @@ class DictionaryCell: UITableViewCell {
         firstLanguage.text = data.part
         secondLanguage.text = data.translation
     }
-    
-    
-   
 }
