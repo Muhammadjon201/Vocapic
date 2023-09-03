@@ -3,7 +3,7 @@
    "categoryDetails": [
       {
          "category": "People",
-         "categoryImage": "people.jpg",
+         "categoryImage": "people2",
          "subcategoryDetails": [
             {
                "subcategory": "Body",
@@ -17,7 +17,8 @@
                   {
                      "part": "chest",
                      "translation": "грудь",
-                     "image": "path/to/chest_image.jpg"
+                     "image": "path/to/chest_image.jpg",
+                     "language": "eng-rus"
                   },
                   {
                      "part": "hip",
@@ -2594,7 +2595,7 @@
                   {
                      "part": "lobby",
                      "translation": "лобби",
-                     "image": "path/to/neck_image.jpg"
+                     "image": "sports"
                   },
                   {
                      "part": "guest",

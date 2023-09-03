@@ -27,9 +27,24 @@ class HomeViewController: UIViewController {
         homecollectionView.register(UINib(nibName: "HomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeCollectionViewCell")
         parseJson()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
 
     @IBAction func starTap(_ sender: Any) {
         print("action")
+            
+//        let rateApp = RateAppView(frame: CGRect(x: 0, y: 0, width: 300, height: 400))
+//        rateApp.center = view.center
+//        view.addSubview(rateApp)
+        
     }
     
     
@@ -75,7 +90,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 80)
+        return CGSize(width: collectionView.bounds.width, height: 130)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

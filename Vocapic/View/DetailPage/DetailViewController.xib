@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
@@ -22,40 +27,40 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subcategories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hdr-QT-v2V">
-                    <rect key="frame" x="15" y="220" width="163.33333333333334" height="28.666666666666657"/>
+                    <rect key="frame" x="15" y="140" width="163.33333333333334" height="28.666666666666657"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EV7-xb-plb">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubCategory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghJ-UM-hYa">
-                            <rect key="frame" x="121.66666666666669" y="78.666666666666671" width="150" height="29"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                            <rect key="frame" x="123" y="55" width="147" height="30"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2s-Nn-OS0">
-                            <rect key="frame" x="15" y="81" width="12" height="24"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-zU-I1H">
+                            <rect key="frame" x="15" y="61" width="24" height="24"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="12" id="Ood-57-O2r"/>
-                                <constraint firstAttribute="height" constant="24" id="pCX-Ws-Bba"/>
+                                <constraint firstAttribute="width" constant="24" id="MI8-Lo-hQf"/>
+                                <constraint firstAttribute="height" constant="24" id="Nn8-U5-HWZ"/>
                             </constraints>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain"/>
+                            <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system"/>
                             <connections>
-                                <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="o1F-o2-W4c"/>
+                                <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="ZVl-Ke-f45"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="120" id="0B3-bh-Ebb"/>
-                        <constraint firstItem="O2s-Nn-OS0" firstAttribute="leading" secondItem="EV7-xb-plb" secondAttribute="leading" constant="15" id="Ida-4V-78K"/>
-                        <constraint firstAttribute="bottom" secondItem="O2s-Nn-OS0" secondAttribute="bottom" constant="15" id="j5i-Eq-zfB"/>
-                        <constraint firstItem="ghJ-UM-hYa" firstAttribute="centerY" secondItem="O2s-Nn-OS0" secondAttribute="centerY" id="o2B-Dc-Irx"/>
+                        <constraint firstAttribute="height" constant="100" id="0B3-bh-Ebb"/>
+                        <constraint firstItem="Mu6-zU-I1H" firstAttribute="leading" secondItem="EV7-xb-plb" secondAttribute="leading" constant="15" id="3kc-69-oJU"/>
+                        <constraint firstAttribute="bottom" secondItem="ghJ-UM-hYa" secondAttribute="bottom" constant="15" id="4Pp-cC-eD6"/>
+                        <constraint firstAttribute="bottom" secondItem="Mu6-zU-I1H" secondAttribute="bottom" constant="15" id="Qc9-up-wvq"/>
                         <constraint firstItem="ghJ-UM-hYa" firstAttribute="centerX" secondItem="EV7-xb-plb" secondAttribute="centerX" id="yup-oQ-3Za"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
@@ -65,7 +70,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-xf-Q6M">
-                    <rect key="frame" x="15" y="258.66666666666669" width="363" height="559.33333333333326"/>
+                    <rect key="frame" x="15" y="178.66666666666669" width="363" height="639.33333333333326"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Gb4-CK-LMi">
                         <size key="itemSize" width="128" height="128"/>
@@ -80,7 +85,7 @@
             <constraints>
                 <constraint firstItem="wIM-xf-Q6M" firstAttribute="top" secondItem="Hdr-QT-v2V" secondAttribute="bottom" constant="10" id="I1M-B4-Vum"/>
                 <constraint firstItem="EV7-xb-plb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IfY-io-9du"/>
-                <constraint firstItem="Hdr-QT-v2V" firstAttribute="top" secondItem="EV7-xb-plb" secondAttribute="bottom" constant="100" id="Nxd-yr-NsG"/>
+                <constraint firstItem="Hdr-QT-v2V" firstAttribute="top" secondItem="EV7-xb-plb" secondAttribute="bottom" constant="40" id="Nxd-yr-NsG"/>
                 <constraint firstItem="wIM-xf-Q6M" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="PeV-Hb-AgA"/>
                 <constraint firstItem="Hdr-QT-v2V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="Sfj-WU-Joo"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="wIM-xf-Q6M" secondAttribute="bottom" id="Y35-N0-YMr"/>
@@ -92,6 +97,7 @@
         </view>
     </objects>
     <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="95"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

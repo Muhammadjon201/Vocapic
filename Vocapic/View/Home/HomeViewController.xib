@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
@@ -21,10 +26,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYV-TN-sqD">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dv-Gt-DP2">
-                            <rect key="frame" x="15" y="81" width="24" height="24"/>
+                            <rect key="frame" x="15" y="61" width="24" height="24"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="24" id="1T0-i4-dSo"/>
@@ -32,13 +37,13 @@
                             </constraints>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" image="line.horizontal.3" catalog="system"/>
+                            <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal" catalog="system"/>
                             <connections>
                                 <action selector="menuBtnTapped:" destination="-1" eventType="touchUpInside" id="2JU-7v-Sw2"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wo-JC-38t">
-                            <rect key="frame" x="375" y="81" width="24" height="24"/>
+                            <rect key="frame" x="375" y="61" width="24" height="24"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="24" id="2Ys-zN-0F2"/>
@@ -52,15 +57,15 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocapic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-Yg-twk">
-                            <rect key="frame" x="152" y="81.5" width="316" height="29"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                            <rect key="frame" x="152" y="60.5" width="316" height="30"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="120" id="099-wF-Iiy"/>
+                        <constraint firstAttribute="height" constant="100" id="099-wF-Iiy"/>
                         <constraint firstAttribute="trailing" secondItem="7Wo-JC-38t" secondAttribute="trailing" constant="15" id="2Ta-zi-by5"/>
                         <constraint firstAttribute="bottom" secondItem="9dv-Gt-DP2" secondAttribute="bottom" constant="15" id="EdS-ag-AKY"/>
                         <constraint firstItem="S4D-Yg-twk" firstAttribute="leading" secondItem="9dv-Gt-DP2" secondAttribute="trailing" constant="113" id="QmY-DT-jgj"/>
@@ -77,13 +82,13 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMA-uw-Yak">
-                    <rect key="frame" x="15" y="150" width="123" height="29"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <rect key="frame" x="15" y="130" width="121.5" height="30"/>
+                    <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Pfv-lB-81R">
-                    <rect key="frame" x="15" y="194" width="384" height="668"/>
+                    <rect key="frame" x="15" y="175" width="384" height="687"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iYo-ah-ZeH">
                         <size key="itemSize" width="128" height="128"/>
@@ -110,7 +115,7 @@
         </view>
     </objects>
     <resources>
-        <image name="line.horizontal.3" catalog="system" width="128" height="65"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

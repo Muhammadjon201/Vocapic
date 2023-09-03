@@ -7,10 +7,17 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Satoshi-Bold.otf">
+            <string>Satoshi-Bold</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DictionaryViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
-                <outlet property="DictionaryTable" destination="5H4-t2-FuT" id="a7D-BG-2Nn"/>
+                <outlet property="dictionaryTable" destination="5H4-t2-FuT" id="xOt-jr-1rX"/>
+                <outlet property="topImageView" destination="qfY-pX-G3R" id="jEM-wj-tUo"/>
+                <outlet property="topView" destination="N8n-HJ-vfT" id="j8n-x6-VCI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="vocabularyTitle" destination="cja-t0-R8u" id="vdm-Lt-QcP"/>
             </connections>
@@ -21,16 +28,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8n-HJ-vfT">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dictionary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cja-t0-R8u">
-                            <rect key="frame" x="138" y="78.666666666666671" width="117" height="29"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                            <rect key="frame" x="139" y="58" width="115.33333333333331" height="30"/>
+                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fV-tX-8bK">
-                            <rect key="frame" x="354" y="81" width="24" height="24"/>
+                            <rect key="frame" x="354" y="61" width="24" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="24" id="iEk-vT-o5I"/>
                                 <constraint firstAttribute="height" constant="24" id="y4Z-xm-pNG"/>
@@ -42,37 +49,58 @@
                                 <action selector="buttonWorked:" destination="-1" eventType="touchUpInside" id="icz-P5-pPu"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX2-fJ-bw4">
+                            <rect key="frame" x="15" y="61" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="PcO-lV-oJA"/>
+                                <constraint firstAttribute="height" constant="24" id="vaC-xd-wcB"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system"/>
+                            <connections>
+                                <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="uuq-7w-Mg2"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="120" id="2MT-YF-vxh"/>
+                        <constraint firstAttribute="height" constant="100" id="2MT-YF-vxh"/>
+                        <constraint firstAttribute="bottom" secondItem="yX2-fJ-bw4" secondAttribute="bottom" constant="15" id="9OQ-IM-C2Z"/>
                         <constraint firstAttribute="bottom" secondItem="9fV-tX-8bK" secondAttribute="bottom" constant="15" id="MY8-Pa-ffz"/>
                         <constraint firstItem="cja-t0-R8u" firstAttribute="centerX" secondItem="N8n-HJ-vfT" secondAttribute="centerX" id="OLs-PZ-YiR"/>
+                        <constraint firstItem="yX2-fJ-bw4" firstAttribute="leading" secondItem="N8n-HJ-vfT" secondAttribute="leading" constant="15" id="fz5-mT-eIj"/>
                         <constraint firstItem="cja-t0-R8u" firstAttribute="centerY" secondItem="9fV-tX-8bK" secondAttribute="centerY" id="hZn-ID-xh7"/>
                         <constraint firstAttribute="trailing" secondItem="9fV-tX-8bK" secondAttribute="trailing" constant="15" id="vyW-Eg-jcn"/>
                     </constraints>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appearance" translatesAutoresizingMaskIntoConstraints="NO" id="qfY-pX-G3R">
-                    <rect key="frame" x="0.0" y="120.00000000000003" width="393" height="340.66666666666674"/>
+                    <rect key="frame" x="10" y="100" width="373" height="300"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5H4-t2-FuT">
-                    <rect key="frame" x="0.0" y="475.66666666666674" width="393" height="342.33333333333326"/>
+                    <rect key="frame" x="0.0" y="415" width="393" height="403"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="N8n-HJ-vfT" secondAttribute="trailing" id="71A-ui-Iu9"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qfY-pX-G3R" secondAttribute="trailing" id="Al2-ma-idc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qfY-pX-G3R" secondAttribute="trailing" constant="10" id="Al2-ma-idc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5H4-t2-FuT" secondAttribute="bottom" id="Eyt-T3-A5j"/>
                 <constraint firstItem="5H4-t2-FuT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KE0-vd-IUa"/>
                 <constraint firstItem="N8n-HJ-vfT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LFm-ik-4mF"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5H4-t2-FuT" secondAttribute="trailing" id="biR-xV-naI"/>
                 <constraint firstItem="5H4-t2-FuT" firstAttribute="top" secondItem="qfY-pX-G3R" secondAttribute="bottom" constant="15" id="cj8-pY-Qe4"/>
-                <constraint firstItem="qfY-pX-G3R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="flX-bD-IhW"/>
+                <constraint firstItem="qfY-pX-G3R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="flX-bD-IhW"/>
+                <constraint firstItem="qfY-pX-G3R" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.395257" id="ht3-Gy-erV"/>
                 <constraint firstItem="N8n-HJ-vfT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qch-vb-8i0"/>
-                <constraint firstItem="qfY-pX-G3R" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.4" id="t5Z-bm-3Ym"/>
                 <constraint firstItem="qfY-pX-G3R" firstAttribute="top" secondItem="N8n-HJ-vfT" secondAttribute="bottom" id="tfM-pk-2AL"/>
             </constraints>
             <point key="canvasLocation" x="82" y="21"/>
@@ -80,9 +108,13 @@
     </objects>
     <resources>
         <image name="appearance" width="4000" height="6000"/>
+        <image name="arrow.backward" catalog="system" width="128" height="95"/>
         <image name="slider.horizontal.3" catalog="system" width="128" height="99"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

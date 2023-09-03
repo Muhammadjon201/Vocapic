@@ -32,7 +32,9 @@ struct SubcategoryDetail: Codable {
 // MARK: - Vocabulary
 struct Vocabulary: Codable {
     let part, translation: String
-    //let image: Image?
+    let image: String?
+    let language: String?
+
 }
 
 //enum Image: String, Codable {

@@ -8,6 +8,9 @@
 import UIKit
 
 class DictionaryCell: UITableViewCell {
+    
+    var labelTapAction: (() -> Void)?
+    
     @IBOutlet var backgroundSplashView: UIView! {
         didSet {
             backgroundSplashView.backgroundColor = .white
@@ -31,26 +34,35 @@ class DictionaryCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        let labelTapGesture = UITapGestureRecognizer(target: self, action: #selector(labelTapped))
+        firstLanguage.addGestureRecognizer(labelTapGesture)
+        firstLanguage.isUserInteractionEnabled = true
+        
+        
     }
+    
+    @objc private func labelTapped() {
+          labelTapAction?()
+      }
+
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
     
     @IBAction func micButtonChange(_ sender: Any) {
         
-        check.toggle()
-                
-        if check == true {
-            micChange.setImage(UIImage(systemName: "waveform.and.mic"), for: .normal)
-        } else {
-            micChange.setImage(UIImage(systemName: "mic"), for: .normal)
-        }
-        
+//        check.toggle()
+//
+//        if check == true {
+//            micChange.setImage(UIImage(systemName: "waveform.and.mic"), for: .normal)
+//        } else {
+//            micChange.setImage(UIImage(systemName: "mic"), for: .normal)
+//        }
+//
         // Notify the view controller that the mic button was tapped
         micButtonTapAction?()
     }

@@ -10,8 +10,20 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if !UserDefaults.standard.bool(forKey: "tutorial") {
+           // Show the tutorial
+           let tutorialController = TutorialViewController()
+           tutorialController.modalPresentationStyle = .overFullScreen
+           window?.rootViewController?.present(tutorialController, animated: false, completion: nil)
+           
+           // Set the flag to indicate that the tutorial has been shown
+            UserDefaults.standard.set(true, forKey: "tutorial")
+        }
         
         return true
     }

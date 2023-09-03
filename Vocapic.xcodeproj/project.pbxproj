@@ -35,8 +35,6 @@
 		D52D59A22A76435200B65B43 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D59A12A76435200B65B43 /* Categories.swift */; };
 		D5385EA62A90F4C200D39116 /* UICollectionVIewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EA52A90F4C200D39116 /* UICollectionVIewExtensions.swift */; };
 		D5385EAC2A90F6C700D39116 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EAB2A90F6C700D39116 /* UITableViewExtensions.swift */; };
-		D5385EAF2A90F86000D39116 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EAD2A90F86000D39116 /* TableViewController.swift */; };
-		D5385EB02A90F86100D39116 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5385EAE2A90F86000D39116 /* TableViewController.xib */; };
 		D5385EB22A90F97100D39116 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB12A90F97100D39116 /* UIAlertControllerExtension.swift */; };
 		D5385EB42A91C54600D39116 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB32A91C54600D39116 /* UIColorExtensions.swift */; };
 		D5385EB62A91C70F00D39116 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */; };
@@ -45,6 +43,22 @@
 		D590327A2A9B6D94006D0A6F /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59032782A9B6D94006D0A6F /* ContainerViewController.xib */; };
 		D590327E2A9B6DE9006D0A6F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590327C2A9B6DE9006D0A6F /* SideMenuViewController.swift */; };
 		D590327F2A9B6DE9006D0A6F /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D590327D2A9B6DE9006D0A6F /* SideMenuViewController.xib */; };
+		D59033122AA04C20006D0A6F /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D59033082AA04C20006D0A6F /* Satoshi-Bold.otf */; };
+		D59033132AA04C20006D0A6F /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D59033092AA04C20006D0A6F /* Satoshi-Italic.otf */; };
+		D59033142AA04C20006D0A6F /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330A2AA04C20006D0A6F /* Satoshi-Black.otf */; };
+		D59033152AA04C20006D0A6F /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330B2AA04C20006D0A6F /* Satoshi-Regular.otf */; };
+		D59033162AA04C20006D0A6F /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330C2AA04C20006D0A6F /* Satoshi-BoldItalic.otf */; };
+		D59033172AA04C20006D0A6F /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330D2AA04C20006D0A6F /* Satoshi-Light.otf */; };
+		D59033182AA04C20006D0A6F /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330E2AA04C20006D0A6F /* Satoshi-LightItalic.otf */; };
+		D59033192AA04C20006D0A6F /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D590330F2AA04C20006D0A6F /* Satoshi-BlackItalic.otf */; };
+		D590331A2AA04C20006D0A6F /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D59033102AA04C20006D0A6F /* Satoshi-MediumItalic.otf */; };
+		D590331B2AA04C20006D0A6F /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D59033112AA04C20006D0A6F /* Satoshi-Medium.otf */; };
+		D590331F2AA06B5B006D0A6F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590331D2AA06B5B006D0A6F /* TutorialViewController.swift */; };
+		D59033202AA06B5B006D0A6F /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D590331E2AA06B5B006D0A6F /* TutorialViewController.xib */; };
+		D59033222AA06E7B006D0A6F /* animation_touch.json in Resources */ = {isa = PBXBuildFile; fileRef = D59033212AA06E7B006D0A6F /* animation_touch.json */; };
+		D59033252AA06F85006D0A6F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D59033242AA06F85006D0A6F /* Lottie */; };
+		D59033282AA1AE7B006D0A6F /* RateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59033272AA1AE7B006D0A6F /* RateAppView.swift */; };
+		D590332A2AA1B8E2006D0A6F /* rateAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = D59033292AA1B8E1006D0A6F /* rateAnimation.json */; };
 		D5D986102A7A10C0001520F1 /* vocapic.json in Resources */ = {isa = PBXBuildFile; fileRef = D5D9860F2A7A10BF001520F1 /* vocapic.json */; };
 		D5E03FD62A9686D000E6A1C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */; };
 		D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */; };
@@ -81,8 +95,6 @@
 		D52D59A12A76435200B65B43 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		D5385EA52A90F4C200D39116 /* UICollectionVIewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionVIewExtensions.swift; sourceTree = "<group>"; };
 		D5385EAB2A90F6C700D39116 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
-		D5385EAD2A90F86000D39116 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		D5385EAE2A90F86000D39116 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		D5385EB12A90F97100D39116 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
 		D5385EB32A91C54600D39116 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		D5385EB52A91C70F00D39116 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
@@ -91,6 +103,21 @@
 		D59032782A9B6D94006D0A6F /* ContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerViewController.xib; sourceTree = "<group>"; };
 		D590327C2A9B6DE9006D0A6F /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		D590327D2A9B6DE9006D0A6F /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		D59033082AA04C20006D0A6F /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		D59033092AA04C20006D0A6F /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		D590330A2AA04C20006D0A6F /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		D590330B2AA04C20006D0A6F /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		D590330C2AA04C20006D0A6F /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		D590330D2AA04C20006D0A6F /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		D590330E2AA04C20006D0A6F /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		D590330F2AA04C20006D0A6F /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		D59033102AA04C20006D0A6F /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		D59033112AA04C20006D0A6F /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		D590331D2AA06B5B006D0A6F /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		D590331E2AA06B5B006D0A6F /* TutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		D59033212AA06E7B006D0A6F /* animation_touch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_touch.json; sourceTree = "<group>"; };
+		D59033272AA1AE7B006D0A6F /* RateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppView.swift; sourceTree = "<group>"; };
+		D59033292AA1B8E1006D0A6F /* rateAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rateAnimation.json; sourceTree = "<group>"; };
 		D5D9860F2A7A10BF001520F1 /* vocapic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocapic.json; sourceTree = "<group>"; };
 		D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59033252AA06F85006D0A6F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +157,7 @@
 		D513336D2A835BA200666DFB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D59033262AA1AE59006D0A6F /* RateCustomView */,
 				D51333702A835BE300666DFB /* HomeCell */,
 				D52D59932A763B8500B65B43 /* HomeViewController.swift */,
 				D52D59942A763B8500B65B43 /* HomeViewController.xib */,
@@ -169,6 +198,7 @@
 		D51333752A89154600666DFB /* TableViewDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				D590331C2AA06B3B006D0A6F /* TutorialPage */,
 				D590326F2A9A62B2006D0A6F /* Custom Alert */,
 				D513337A2A8916A600666DFB /* Cell */,
 				D51333762A89156900666DFB /* DictionaryViewController.swift */,
@@ -207,6 +237,7 @@
 		D52D597D2A763B1200B65B43 /* Vocapic */ = {
 			isa = PBXGroup;
 			children = (
+				D59032802AA04AC4006D0A6F /* Utilis */,
 				D590327B2A9B6DC4006D0A6F /* SideMenu */,
 				D5385EA42A90F49B00D39116 /* Extension */,
 				D513335D2A7FC57B00666DFB /* ViewModel */,
@@ -221,8 +252,6 @@
 				D52D59892A763B1900B65B43 /* LaunchScreen.storyboard */,
 				D52D598C2A763B1900B65B43 /* Info.plist */,
 				D5D9860F2A7A10BF001520F1 /* vocapic.json */,
-				D5385EAD2A90F86000D39116 /* TableViewController.swift */,
-				D5385EAE2A90F86000D39116 /* TableViewController.xib */,
 			);
 			path = Vocapic;
 			sourceTree = "<group>";
@@ -284,6 +313,50 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		D59032802AA04AC4006D0A6F /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				D59033292AA1B8E1006D0A6F /* rateAnimation.json */,
+				D59033212AA06E7B006D0A6F /* animation_touch.json */,
+				D59033072AA04C20006D0A6F /* OTF */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		D59033072AA04C20006D0A6F /* OTF */ = {
+			isa = PBXGroup;
+			children = (
+				D59033082AA04C20006D0A6F /* Satoshi-Bold.otf */,
+				D59033092AA04C20006D0A6F /* Satoshi-Italic.otf */,
+				D590330A2AA04C20006D0A6F /* Satoshi-Black.otf */,
+				D590330B2AA04C20006D0A6F /* Satoshi-Regular.otf */,
+				D590330C2AA04C20006D0A6F /* Satoshi-BoldItalic.otf */,
+				D590330D2AA04C20006D0A6F /* Satoshi-Light.otf */,
+				D590330E2AA04C20006D0A6F /* Satoshi-LightItalic.otf */,
+				D590330F2AA04C20006D0A6F /* Satoshi-BlackItalic.otf */,
+				D59033102AA04C20006D0A6F /* Satoshi-MediumItalic.otf */,
+				D59033112AA04C20006D0A6F /* Satoshi-Medium.otf */,
+			);
+			path = OTF;
+			sourceTree = "<group>";
+		};
+		D590331C2AA06B3B006D0A6F /* TutorialPage */ = {
+			isa = PBXGroup;
+			children = (
+				D590331D2AA06B5B006D0A6F /* TutorialViewController.swift */,
+				D590331E2AA06B5B006D0A6F /* TutorialViewController.xib */,
+			);
+			path = TutorialPage;
+			sourceTree = "<group>";
+		};
+		D59033262AA1AE59006D0A6F /* RateCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D59033272AA1AE7B006D0A6F /* RateAppView.swift */,
+			);
+			path = RateCustomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,6 +374,7 @@
 			);
 			name = Vocapic;
 			packageProductDependencies = (
+				D59033242AA06F85006D0A6F /* Lottie */,
 			);
 			productName = Vocapic;
 			productReference = D52D597B2A763B1200B65B43 /* Vocapic.app */;
@@ -331,6 +405,7 @@
 			);
 			mainGroup = D52D59722A763B1200B65B43;
 			packageReferences = (
+				D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */,
 			);
 			productRefGroup = D52D597C2A763B1200B65B43 /* Products */;
 			projectDirPath = "";
@@ -348,18 +423,30 @@
 			files = (
 				D51333792A89156900666DFB /* DictionaryViewController.xib in Resources */,
 				D590327A2A9B6D94006D0A6F /* ContainerViewController.xib in Resources */,
+				D59033222AA06E7B006D0A6F /* animation_touch.json in Resources */,
+				D590331B2AA04C20006D0A6F /* Satoshi-Medium.otf in Resources */,
 				D52D599F2A7641E200B65B43 /* HomeCollectionViewCell.xib in Resources */,
+				D59033192AA04C20006D0A6F /* Satoshi-BlackItalic.otf in Resources */,
+				D59033122AA04C20006D0A6F /* Satoshi-Bold.otf in Resources */,
 				D5D986102A7A10C0001520F1 /* vocapic.json in Resources */,
 				D51333682A835B5E00666DFB /* DetailViewController.xib in Resources */,
-				D5385EB02A90F86100D39116 /* TableViewController.xib in Resources */,
+				D59033132AA04C20006D0A6F /* Satoshi-Italic.otf in Resources */,
+				D59033172AA04C20006D0A6F /* Satoshi-Light.otf in Resources */,
+				D59033152AA04C20006D0A6F /* Satoshi-Regular.otf in Resources */,
 				D52D598B2A763B1900B65B43 /* LaunchScreen.storyboard in Resources */,
+				D590332A2AA1B8E2006D0A6F /* rateAnimation.json in Resources */,
 				D52D59882A763B1900B65B43 /* Assets.xcassets in Resources */,
 				D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */,
+				D59033182AA04C20006D0A6F /* Satoshi-LightItalic.otf in Resources */,
+				D59033162AA04C20006D0A6F /* Satoshi-BoldItalic.otf in Resources */,
 				D52D59862A763B1200B65B43 /* Main.storyboard in Resources */,
 				D590327F2A9B6DE9006D0A6F /* SideMenuViewController.xib in Resources */,
 				D513337E2A8916D800666DFB /* DictionaryCell.xib in Resources */,
 				D52D59962A763B8500B65B43 /* HomeViewController.xib in Resources */,
+				D59033202AA06B5B006D0A6F /* TutorialViewController.xib in Resources */,
+				D590331A2AA04C20006D0A6F /* Satoshi-MediumItalic.otf in Resources */,
 				D513336C2A835B9400666DFB /* DetailCollectionViewCell.xib in Resources */,
+				D59033142AA04C20006D0A6F /* Satoshi-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,13 +461,13 @@
 				D52D599E2A7641E200B65B43 /* HomeCollectionViewCell.swift in Sources */,
 				D59032792A9B6D94006D0A6F /* ContainerViewController.swift in Sources */,
 				D51333722A8900C000666DFB /* VocaPicModel.swift in Sources */,
-				D5385EAF2A90F86000D39116 /* TableViewController.swift in Sources */,
 				D513336B2A835B9400666DFB /* DetailCollectionViewCell.swift in Sources */,
 				D5385EB22A90F97100D39116 /* UIAlertControllerExtension.swift in Sources */,
 				D590327E2A9B6DE9006D0A6F /* SideMenuViewController.swift in Sources */,
 				D52D59832A763B1200B65B43 /* ViewController.swift in Sources */,
 				D52D597F2A763B1200B65B43 /* AppDelegate.swift in Sources */,
 				D51333672A835B5E00666DFB /* DetailViewController.swift in Sources */,
+				D59033282AA1AE7B006D0A6F /* RateAppView.swift in Sources */,
 				D59032712A9A62C5006D0A6F /* CustomAlert.swift in Sources */,
 				D51333742A8913EB00666DFB /* UnsplashPhotoModel.swift in Sources */,
 				D513335F2A7FC59000666DFB /* ViewModel.swift in Sources */,
@@ -392,6 +479,7 @@
 				D5385EAC2A90F6C700D39116 /* UITableViewExtensions.swift in Sources */,
 				D5385EB62A91C70F00D39116 /* UIImageViewExtensions.swift in Sources */,
 				D5385EB42A91C54600D39116 /* UIColorExtensions.swift in Sources */,
+				D590331F2AA06B5B006D0A6F /* TutorialViewController.swift in Sources */,
 				D52D59952A763B8500B65B43 /* HomeViewController.swift in Sources */,
 				D51333582A7FC3E600666DFB /* BaseState.swift in Sources */,
 				D51333782A89156900666DFB /* DictionaryViewController.swift in Sources */,
@@ -547,7 +635,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocapic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = TableViewController;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -575,7 +664,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocapic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = TableViewController;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -614,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D59033242AA06F85006D0A6F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D52D59732A763B1200B65B43 /* Project object */;
 }

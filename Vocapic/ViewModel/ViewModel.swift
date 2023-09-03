@@ -16,8 +16,15 @@ class PhotoViewModel {
     
     private let unsplashAccessKey = "lTUsZhE6strM1zJzxgw-gjPqjSwsDSP5_lcj5QtQOws"
     
-    func fetchRandomPhoto(completion: @escaping (Result<Data, Error>) -> Void) {
-        guard let url = URL(string: "https://api.unsplash.com/photos/random?client_id=\(unsplashAccessKey)") else {
+    func fetchRandomPhoto(searchQuery: String, completion: @escaping (Result<Data, Error>) -> Void) {
+        // Encode the searchQuery to make it URL-safe
+        guard let encodedQuery = searchQuery.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            completion(.failure(NetworkError.invalidURL))
+            return
+        }
+        
+        // Construct the URL with the encoded searchQuery
+        guard let url = URL(string: "https://api.unsplash.com/photos/random?client_id=\(unsplashAccessKey)&query=\(encodedQuery)") else {
             completion(.failure(NetworkError.invalidURL))
             return
         }
@@ -37,4 +44,5 @@ class PhotoViewModel {
         task.resume()
     }
 }
+
 
