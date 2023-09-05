@@ -162,12 +162,9 @@ class DictionaryViewController: UIViewController {
     // MARK: Action Buttons..
     
     @IBAction func buttonWorked(_ sender: Any) {
-        
-      print("worked")
-        
-      let customAlertView = CustomAlert(frame: CGRect(x: 0, y: 0, width: 300, height: 400))
-      customAlertView.center = view.center
-      view.addSubview(customAlertView)
+        let customAlertView = CustomAlert(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+        customAlertView.center = view.center
+        view.addSubview(customAlertView)
         
     }
     
@@ -233,9 +230,11 @@ extension DictionaryViewController: UITableViewDelegate, UITableViewDataSource {
         // Spinner..
         
         let spinner = UIActivityIndicatorView(style: .medium)
+        
         spinner.startAnimating()
+        
         spinner.hidesWhenStopped = true
-        //spinner.backgroundColor = .systemPink
+        
         spinner.color = .white
         spinner.center = topImageView.center
         topImageView.addSubview(spinner)

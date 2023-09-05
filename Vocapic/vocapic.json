@@ -2210,7 +2210,7 @@
          "subcategoryDetails": [
             {
                "subcategory": "Supermarket",
-               "subcategoryImage": "",
+               "subcategoryImage": "supermarket",
                "vocabulary": [
                   {
                      "part": "aisle",
