@@ -8,14 +8,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Satoshi-Bold.otf">
-            <string>Satoshi-Bold</string>
+        <array key="LeagueSpartan-Bold.ttf">
+            <string>LeagueSpartan-Bold</string>
+        </array>
+        <array key="LeagueSpartan-SemiBold.ttf">
+            <string>LeagueSpartan-SemiBold</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
                 <outlet property="homecollectionView" destination="Pfv-lB-81R" id="R0m-0s-fZ9"/>
+                <outlet property="sideMenu" destination="9dv-Gt-DP2" id="MIU-gD-2h0"/>
+                <outlet property="starButton" destination="7Wo-JC-38t" id="rf6-gN-OIr"/>
                 <outlet property="topView" destination="RYV-TN-sqD" id="RYv-uh-ZMp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -56,9 +61,9 @@
                                 <action selector="starTap:" destination="-1" eventType="touchUpInside" id="Djg-va-II8"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vocapic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-Yg-twk">
-                            <rect key="frame" x="152" y="60.5" width="316" height="30"/>
-                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vocapic." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-Yg-twk">
+                            <rect key="frame" x="156.5" y="59" width="101.5" height="26"/>
+                            <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="28"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -68,12 +73,10 @@
                         <constraint firstAttribute="height" constant="100" id="099-wF-Iiy"/>
                         <constraint firstAttribute="trailing" secondItem="7Wo-JC-38t" secondAttribute="trailing" constant="15" id="2Ta-zi-by5"/>
                         <constraint firstAttribute="bottom" secondItem="9dv-Gt-DP2" secondAttribute="bottom" constant="15" id="EdS-ag-AKY"/>
-                        <constraint firstItem="S4D-Yg-twk" firstAttribute="leading" secondItem="9dv-Gt-DP2" secondAttribute="trailing" constant="113" id="QmY-DT-jgj"/>
+                        <constraint firstItem="S4D-Yg-twk" firstAttribute="centerX" secondItem="RYV-TN-sqD" secondAttribute="centerX" id="MDx-Cb-0dk"/>
                         <constraint firstAttribute="bottom" secondItem="7Wo-JC-38t" secondAttribute="bottom" constant="15" id="Qmr-4L-UcU"/>
                         <constraint firstItem="9dv-Gt-DP2" firstAttribute="leading" secondItem="RYV-TN-sqD" secondAttribute="leading" constant="15" id="Sgj-fJ-94i"/>
-                        <constraint firstItem="S4D-Yg-twk" firstAttribute="centerX" secondItem="RYV-TN-sqD" secondAttribute="centerX" constant="103" id="T5k-FR-GBe"/>
-                        <constraint firstItem="7Wo-JC-38t" firstAttribute="leading" secondItem="S4D-Yg-twk" secondAttribute="trailing" constant="-93" id="WK3-Ln-cLR"/>
-                        <constraint firstAttribute="bottom" secondItem="S4D-Yg-twk" secondAttribute="bottom" constant="9.6666666666666714" id="dxC-6P-b5n"/>
+                        <constraint firstAttribute="bottom" secondItem="S4D-Yg-twk" secondAttribute="bottom" constant="15" id="XVJ-cT-UmU"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -82,13 +85,13 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMA-uw-Yak">
-                    <rect key="frame" x="15" y="130" width="121.5" height="30"/>
-                    <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                    <rect key="frame" x="15" y="130" width="111.5" height="23"/>
+                    <fontDescription key="fontDescription" name="LeagueSpartan-SemiBold" family="League Spartan" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Pfv-lB-81R">
-                    <rect key="frame" x="15" y="175" width="384" height="687"/>
+                    <rect key="frame" x="15" y="168" width="384" height="694"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iYo-ah-ZeH">
                         <size key="itemSize" width="128" height="128"/>
@@ -105,13 +108,13 @@
                 <constraint firstItem="RYV-TN-sqD" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Q07-Id-RYw"/>
                 <constraint firstItem="iMA-uw-Yak" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="VoW-qN-8OE"/>
                 <constraint firstItem="Pfv-lB-81R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="ceM-Jb-1ki"/>
-                <constraint firstItem="RYV-TN-sqD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fiZ-wU-9e8"/>
+                <constraint firstItem="RYV-TN-sqD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hlt-HW-9cg"/>
                 <constraint firstItem="iMA-uw-Yak" firstAttribute="top" secondItem="RYV-TN-sqD" secondAttribute="bottom" constant="30" id="mcU-oa-myQ"/>
                 <constraint firstItem="Pfv-lB-81R" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="mkW-ER-HqO"/>
                 <constraint firstItem="Pfv-lB-81R" firstAttribute="top" secondItem="iMA-uw-Yak" secondAttribute="bottom" constant="15" id="xXH-HR-C6L"/>
                 <constraint firstItem="RYV-TN-sqD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zGQ-aq-Snf"/>
             </constraints>
-            <point key="canvasLocation" x="75.572519083969468" y="5.6338028169014089"/>
+            <point key="canvasLocation" x="-20" y="-13"/>
         </view>
     </objects>
     <resources>

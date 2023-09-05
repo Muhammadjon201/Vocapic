@@ -25,9 +25,12 @@ class DetailViewController: UIViewController {
     @IBOutlet var categoryTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setUI()
         populateSubcategories()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -67,9 +70,7 @@ class DetailViewController: UIViewController {
         navigationController?.popViewController(animated: true)
         print("backkk")
     }
-    
-    
-    
+
 }
 
 extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -88,7 +89,7 @@ extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 80)
+        return CGSize(width: collectionView.bounds.width, height: 130)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

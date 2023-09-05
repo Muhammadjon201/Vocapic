@@ -22,204 +22,165 @@
                   },
                   {
                      "part": "hip",
-                     "translation": "бедро",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "бедро"
                   },
                   {
                      "part": "genitals",
-                     "translation": "гениталии",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "гениталии"
                   },
                   {
                      "part": "shin",
-                     "translation": "голень",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "голень"
                   },
                   {
                      "part": "leg",
-                     "translation": "нога",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "нога"
                   },
                   {
                      "part": "knee",
-                     "translation": "колено",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "колено"
                   },
                   {
                      "part": "foot",
-                     "translation": "ступня",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ступня"
                   },
                   {
                      "part": "forearm",
-                     "translation": "предплечье",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "предплечье"
                   },
                   {
                      "part": "navel",
-                     "translation": "пупок",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "пупок"
                   },
                   {
                      "part": "waist",
-                     "translation": "талия",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "талия"
                   },
                   {
                      "part": "breast",
-                     "translation": "грудь",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "грудь"
                   },
                   {
                      "part": "head",
-                     "translation": "голова",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "голова"
                   },
                   {
                      "part": "nipple",
-                     "translation": "соска",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "соска"
                   },
                   {
                      "part": "shoulder",
-                     "translation": "плечо",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "плечо"
                   },
                   {
                      "part": "nape",
-                     "translation": "затылок",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "затылок"
                   },
                   {
                      "part": "arm",
-                     "translation": "рука",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "рука"
                   },
                   {
                      "part": "elbow",
-                     "translation": "локоть",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "локоть"
                   },
                   {
                      "part": "ankle",
-                     "translation": "лодыжка",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "лодыжка"
                   },
                   {
                      "part": "heel",
-                     "translation": "пятка",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "пятка"
                   },
                   {
                      "part": "buttock",
-                     "translation": "ягодица",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ягодица"
                   },
                   {
                      "part": "armpit",
-                     "translation": "подмышка",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "подмышка"
                   },
                   {
                      "part": "back",
-                     "translation": "спина",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "спина"
                   }
                ]
             },
             {
                "subcategory": "Face",
-               "subcategoryImage": "appearance",
+               "subcategoryImage": "face",
                "vocabulary": [
                   {
                      "part": "hair",
-                     "translation": "волосы",
-                     "image": "path/to/neck_image.jpg"
+                     "translation": "волосы"
                   },
                   {
                      "part": "skin",
-                     "translation": "кожа",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "кожа"
                   },
                   {
                      "part": "eyebrow",
-                     "translation": "бровь",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "бровь"
                   },
                   {
                      "part": "eyelash",
-                     "translation": "ресница",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ресница"
                   },
                   {
                      "part": "ear",
-                     "translation": "ухо",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ухо"
                   },
                   {
                      "part": "nose",
-                     "translation": "нос",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "нос"
                   },
                   {
                      "part": "mole",
-                     "translation": "родинка",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "родинка"
                   },
                   {
                      "part": "lip",
-                     "translation": "губа",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "губа"
                   },
                   {
                      "part": "chin",
-                     "translation": "подбородок",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "подбородок"
                   },
                   {
                      "part": "forehead",
-                     "translation": "лоб",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "лоб"
                   },
                   {
                      "part": "temple",
-                     "translation": "висок",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "висок"
                   },
                   {
                      "part": "eye",
-                     "translation": "глаз",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "глаз"
                   },
                   {
                      "part": "cheek",
-                     "translation": "щека",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "щека"
                   },
                   {
                      "part": "nostril",
-                     "translation": "ноздря",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ноздря"
                   },
                   {
                      "part": "mouth",
-                     "translation": "рот",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "рот"
                   },
                   {
                      "part": "jaw",
-                     "translation": "рочелюстьт",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "рочелюстьт"
                   },
                   {
                      "part": "wrinkle",
-                     "translation": "морщина",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "морщина"
                   },
                   {
                      "part": "dimple",
-                     "translation": "ямочка",
-                     "image": ""
+                     "translation": "ямочка"
                   }
                ]
             },
@@ -229,53 +190,43 @@
                "vocabulary": [
                   {
                      "part": "ring finger",
-                     "translation": "Безымянный палец",
-                     "image": "path/to/neck_image.jpg"
+                     "translation": "Безымянный палец"
                   },
                   {
                      "part": "little finger",
-                     "translation": "мизинец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "мизинец"
                   },
                   {
                      "part": "wrist",
-                     "translation": "запястье",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "запястье"
                   },
                   {
                      "part": "palm",
-                     "translation": "ладонь",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ладонь"
                   },
                   {
                      "part": "middle finger",
-                     "translation": "средний палец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "средний палец"
                   },
                   {
                      "part": "index finger",
-                     "translation": "указательный палец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "указательный палец"
                   },
                   {
                      "part": "thumb",
-                     "translation": "большой палец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "большой палец"
                   },
                   {
                      "part": "nail",
-                     "translation": "ноготь",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ноготь"
                   },
                   {
                      "part": "cuticle",
-                     "translation": "кутикула",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "кутикула"
                   },
                   {
                      "part": "fist",
-                     "translation": "кулак",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "кулак"
                   }
                ]
             },
@@ -285,43 +236,31 @@
                "vocabulary": [
                   {
                      "part": "tole",
-                     "translation": "палец на ноге",
-                     "image": "path/to/neck_image.jpg"
+                     "translation": "палец на ноге"
                   },
                   {
                      "part": "sole",
-                     "translation": "подошва",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "подошва"
                   },
                   {
                      "part": "instep",
-                     "translation": "подъем",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "подъем"
                   },
                   {
                      "part": "heel",
-                     "translation": "пятка",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "пятка"
                   },
                   {
                      "part": "big toe",
-                     "translation": "большой палец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "большой палец"
                   },
                   {
                      "part": "little toe",
-                     "translation": "мизинец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "мизинец"
                   },
                   {
                      "part": "big toe",
-                     "translation": "большой палец",
-                     "image": "path/to/chest_image.jpg"
-                  },
-                  {
-                     "part": "big toe",
-                     "translation": "большой палец",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "большой палец"
                   }
                ]
             },
@@ -331,63 +270,51 @@
                "vocabulary": [
                   {
                      "part": "frontal",
-                     "translation": "лобная мышца",
-                     "image": "path/to/neck_image.jpg"
+                     "translation": "лобная мышца"
                   },
                   {
                      "part": "intercostal muscle",
-                     "translation": "межреберная мышца",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "межреберная мышца"
                   },
                   {
                      "part": "biceps",
-                     "translation": "бицепс",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "бицепс"
                   },
                   {
                      "part": "abdominals",
-                     "translation": "брюшной пресс",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "брюшной пресс"
                   },
                   {
                      "part": "quadriceps",
-                     "translation": "квадрицепс",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "квадрицепс"
                   },
                   {
                      "part": "pectoral",
-                     "translation": "грудная мышца",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "грудная мышца"
                   },
                   {
                      "part": "deltoid",
-                     "translation": "дельтовидная мышца",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "дельтовидная мышца"
                   },
                   {
                      "part": "trapezius",
-                     "translation": "трапеция",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "трапеция"
                   },
                   {
                      "part": "latissimus dorsi",
-                     "translation": "широчайшая мышца спины",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "мышца спины"
                   },
                   {
                      "part": "buttock",
-                     "translation": "ягодичная мышца",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "ягодичная мышца"
                   },
                   {
                      "part": "triceps",
-                     "translation": "трицепс",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "трицепс"
                   },
                   {
                      "part": "calf",
-                     "translation": "икроножная мышца",
-                     "image": "path/to/chest_image.jpg"
+                     "translation": "икроножная мышца"
                   }
                ]
             },
@@ -397,128 +324,103 @@
                 "vocabulary": [
                     {
                        "part": "grandfather",
-                       "translation": "дедушка",
-                       "image": "path/to/neck_image.jpg"
+                       "translation": "дедушка"
                     },
                     {
                        "part": "grandmother",
-                       "translation": "бабушка",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "бабушка"
                     },
                     {
                        "part": "father",
-                       "translation": "отец",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "отец"
                     },
                     {
                        "part": "mother",
-                       "translation": "мать",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "мать"
                     },
                     {
                        "part": "aunt",
-                       "translation": "тетя",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "тетя"
                     },
                     {
                        "part": "uncle",
-                       "translation": "дядя",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "дядя"
                     },
                     {
                        "part": "brother",
-                       "translation": "брат",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "брат"
                     },
                     {
                        "part": "сестра",
-                       "translation": "бабушка",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "бабушка"
                     },
                     {
                        "part": "wife",
-                       "translation": "жена",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "жена"
                     },
                     {
                        "part": "daughter-in-law",
-                       "translation": "Невестка",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Невестка"
                     },
                     {
                        "part": "son",
-                       "translation": "сын",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "сын"
                     },
                     {
                        "part": "daughter",
-                       "translation": "дочь",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "дочь"
                     },
                     {
                        "part": "son-in-law",
-                       "translation": "зять",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "зять"
                     },
                     {
                        "part": "grandson",
-                       "translation": "внук",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "внук"
                     },
                     {
                        "part": "granddaughter",
-                       "translation": "внук",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "внук"
                     },
                     {
                        "part": "husband",
-                       "translation": "муж",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "муж"
                     },
                     {
                        "part": "niece",
-                       "translation": "племянница",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "племянница"
                     },
                     {
                        "part": "nephew",
-                       "translation": "племянник",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "племянник"
                     },
                     {
                        "part": "baby",
-                       "translation": "малыш",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "малыш"
                     },
                     {
                        "part": "child",
-                       "translation": "ребенок",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "ребенок"
                     },
                     {
                        "part": "boy",
-                       "translation": "мальчик",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "мальчик"
                     },
                     {
                        "part": "teenager",
-                       "translation": "подросток",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "подросток"
                     },
                     {
                        "part": "adult",
-                       "translation": "взрослый",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "взрослый"
                     },
                     {
                        "part": "man",
-                       "translation": "мужчина",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "мужчина"
                     },
                     {
                        "part": "woman",
-                       "translation": "женщина",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "женщина"
                     }
                 ]
             },
@@ -528,63 +430,51 @@
                 "vocabulary": [
                     {
                        "part": "assistant",
-                       "translation": "помощник",
-                       "image": "path/to/neck_image.jpg"
+                       "translation": "помощник"
                     },
                     {
                        "part": "manager",
-                       "translation": "менеджер",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "менеджер"
                     },
                     {
                        "part": "business partner",
-                       "translation": "бизнес партнер",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "бизнес партнер"
                     },
                     {
                        "part": "employer",
-                       "translation": "работодатель",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "работодатель"
                     },
                     {
                        "part": "employee",
-                       "translation": "сотрудник",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "сотрудник"
                     },
                     {
                        "part": "colleague",
-                       "translation": "коллега",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "коллега"
                     },
                     {
                        "part": "neighbor",
-                       "translation": "сосед",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "сосед"
                     },
                     {
                        "part": "friend",
-                       "translation": "друг",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "друг"
                     },
                     {
                        "part": "acquaintance",
-                       "translation": "знакомство",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "знакомство"
                     },
                     {
                        "part": "pen pal",
-                       "translation": "друг по переписке",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "друг по переписке"
                     },
                     {
                        "part": "boyfriend",
-                       "translation": "дружок",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "дружок"
                     },
                     {
                        "part": "girlfriend",
-                       "translation": "Подруга",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Подруга"
                     }
                 ]
             },
@@ -594,78 +484,63 @@
                 "vocabulary": [
                     {
                        "part": "smile",
-                       "translation": "улыбка",
-                       "image": "path/to/neck_image.jpg"
+                       "translation": "улыбка"
                     },
                     {
                        "part": "happy",
-                       "translation": "счастливый",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "счастливый"
                     },
                     {
                        "part": "sad",
-                       "translation": "грустный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "грустный"
                     },
                     {
                        "part": "excited",
-                       "translation": "взволнованный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "взволнованный"
                     },
                     {
                        "part": "bored",
-                       "translation": "скучающий",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "скучающий"
                     },
                     {
                        "part": "surprised",
-                       "translation": "удивленный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "удивленный"
                     },
                     {
                        "part": "scared",
-                       "translation": "испуганный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "испуганный"
                     },
                     {
                        "part": "angry",
-                       "translation": "сердитый",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "сердитый"
                     },
                     {
                        "part": "confused",
-                       "translation": "смущенный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "смущенный"
                     },
                     {
                        "part": "worried",
-                       "translation": "волновался",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "волновался"
                     },
                     {
                        "part": "nervous",
-                       "translation": "нервный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "нервный"
                     },
                     {
                        "part": "proud",
-                       "translation": "гордый",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "гордый"
                     },
                     {
                        "part": "confident",
-                       "translation": "уверенный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "уверенный"
                     },
                     {
                        "part": "embarrassed",
-                       "translation": "смущенный",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "смущенный"
                     },
                     {
                        "part": "застенчивый",
-                       "translation": "гордый",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "гордый"
                     }
                 ]
             },
@@ -675,53 +550,43 @@
                 "vocabulary": [
                     {
                        "part": "be born",
-                       "translation": "родиться",
-                       "image": "path/to/neck_image.jpg"
+                       "translation": "родиться"
                     },
                     {
                        "part": "to start school",
-                       "translation": "пойти в школу",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "пойти в школу"
                     },
                     {
                        "part": "make friend",
-                       "translation": "подружиться",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "подружиться"
                     },
                     {
                        "part": "graduate",
-                       "translation": "окончить",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "окончить"
                     },
                     {
                        "part": "get a job",
-                       "translation": "получить работу",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "получить работу"
                     },
                     {
                        "part": "fall in love",
-                       "translation": "влюбляться",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "влюбляться"
                     },
                     {
                        "part": "get married",
-                       "translation": "жениться",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "жениться"
                     },
                     {
                        "part": "wedding",
-                       "translation": "свадьба",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "свадьба"
                     },
                     {
                        "part": "divorce",
-                       "translation": "развод",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "развод"
                     },
                     {
                        "part": "funeral",
-                       "translation": "похороны",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "похороны"
                     }
                 ]
             },
@@ -731,63 +596,51 @@
                 "vocabulary": [
                     {
                        "part": "birthday",
-                       "translation": "день рождения",
-                       "image": "path/to/neck_image.jpg"
+                       "translation": "день рождения"
                     },
                     {
                        "part": "present",
-                       "translation": "подарок",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "подарок"
                     },
                     {
                        "part": "christmas",
-                       "translation": "рождество",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "рождество"
                     },
                     {
                        "part": "passover",
-                       "translation": "Пасха",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Пасха"
                     },
                     {
                        "part": "new year",
-                       "translation": "новый год",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "новый год"
                     },
                     {
                        "part": "carnival",
-                       "translation": "карнавал",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "карнавал"
                     },
                     {
                        "part": "procession",
-                       "translation": "процессия",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "процессия"
                     },
                     {
                        "part": "ramadan",
-                       "translation": "Рамадан",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Рамадан"
                     },
                     {
                        "part": "thanksgiving",
-                       "translation": "благодарение",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "благодарение"
                     },
                     {
                        "part": "easter",
-                       "translation": "Пасха",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Пасха"
                     },
                     {
                        "part": "halloween",
-                       "translation": "Хэллоуин",
-                       "image": "path/to/chest_image.jpg"
+                       "translation": "Хэллоуин"
                     },
                     {
-                       "part": "",
-                       "translation": "Пасха",
-                       "image": "path/to/chest_image.jpg"
+                       "part": "easter",
+                       "translation": "Пасха"
                     }
                 ]
             }
@@ -795,10 +648,11 @@
       },
       {
          "category": "Appearance",
-         "categoryImage": "appearance.jpg",
+         "categoryImage": "woman",
          "subcategoryDetails": [
             {
                "subcategory": "Child",
+               "subcategoryImage": "child",
                "vocabulary": [
                   {
                      "part": "dress",

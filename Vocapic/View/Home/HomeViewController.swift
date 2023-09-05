@@ -10,8 +10,12 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var sideMenu: UIButton!
+    
+    @IBOutlet weak var starButton: UIButton!
+    
     @IBOutlet var topView: UIView! {
-        didSet{
+        didSet {
             topView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         }
     }
@@ -26,6 +30,14 @@ class HomeViewController: UIViewController {
         homecollectionView.dataSource = self
         homecollectionView.register(UINib(nibName: "HomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeCollectionViewCell")
         parseJson()
+        
+        self.sideMenu.isHidden = true
+        self.starButton.isHidden = true
+
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
     
     override func viewWillAppear(_ animated: Bool) {

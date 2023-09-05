@@ -8,8 +8,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Satoshi-Bold.otf">
-            <string>Satoshi-Bold</string>
+        <array key="LeagueSpartan-Bold.ttf">
+            <string>LeagueSpartan-Bold</string>
         </array>
     </customFonts>
     <objects>
@@ -31,8 +31,8 @@
                     <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dictionary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cja-t0-R8u">
-                            <rect key="frame" x="139" y="58" width="115.33333333333331" height="30"/>
-                            <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                            <rect key="frame" x="134.33333333333334" y="59" width="124.66666666666666" height="26"/>
+                            <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="28"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -69,13 +69,13 @@
                         <constraint firstAttribute="bottom" secondItem="yX2-fJ-bw4" secondAttribute="bottom" constant="15" id="9OQ-IM-C2Z"/>
                         <constraint firstAttribute="bottom" secondItem="9fV-tX-8bK" secondAttribute="bottom" constant="15" id="MY8-Pa-ffz"/>
                         <constraint firstItem="cja-t0-R8u" firstAttribute="centerX" secondItem="N8n-HJ-vfT" secondAttribute="centerX" id="OLs-PZ-YiR"/>
+                        <constraint firstAttribute="bottom" secondItem="cja-t0-R8u" secondAttribute="bottom" constant="15" id="RAC-0g-cE3"/>
                         <constraint firstItem="yX2-fJ-bw4" firstAttribute="leading" secondItem="N8n-HJ-vfT" secondAttribute="leading" constant="15" id="fz5-mT-eIj"/>
-                        <constraint firstItem="cja-t0-R8u" firstAttribute="centerY" secondItem="9fV-tX-8bK" secondAttribute="centerY" id="hZn-ID-xh7"/>
                         <constraint firstAttribute="trailing" secondItem="9fV-tX-8bK" secondAttribute="trailing" constant="15" id="vyW-Eg-jcn"/>
                     </constraints>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appearance" translatesAutoresizingMaskIntoConstraints="NO" id="qfY-pX-G3R">
-                    <rect key="frame" x="10" y="100" width="373" height="300"/>
+                    <rect key="frame" x="10" y="108" width="373" height="300"/>
                     <color key="backgroundColor" systemColor="systemPinkColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -84,7 +84,7 @@
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5H4-t2-FuT">
-                    <rect key="frame" x="0.0" y="415" width="393" height="403"/>
+                    <rect key="frame" x="0.0" y="423" width="393" height="395"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
@@ -101,7 +101,7 @@
                 <constraint firstItem="qfY-pX-G3R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="flX-bD-IhW"/>
                 <constraint firstItem="qfY-pX-G3R" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.395257" id="ht3-Gy-erV"/>
                 <constraint firstItem="N8n-HJ-vfT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qch-vb-8i0"/>
-                <constraint firstItem="qfY-pX-G3R" firstAttribute="top" secondItem="N8n-HJ-vfT" secondAttribute="bottom" id="tfM-pk-2AL"/>
+                <constraint firstItem="qfY-pX-G3R" firstAttribute="top" secondItem="N8n-HJ-vfT" secondAttribute="bottom" constant="8" id="tfM-pk-2AL"/>
             </constraints>
             <point key="canvasLocation" x="82" y="21"/>
         </view>

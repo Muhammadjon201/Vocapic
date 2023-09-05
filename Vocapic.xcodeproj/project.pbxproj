@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50291142AA6B50A00AD6F2D /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = D50291132AA6B50A00AD6F2D /* Reachability */; };
 		D51333562A7FC2C300666DFB /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51333552A7FC2C300666DFB /* BaseResponse.swift */; };
 		D51333582A7FC3E600666DFB /* BaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51333572A7FC3E600666DFB /* BaseState.swift */; };
 		D513335A2A7FC42E00666DFB /* ServiceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51333592A7FC42E00666DFB /* ServiceState.swift */; };
@@ -59,6 +60,18 @@
 		D59033252AA06F85006D0A6F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D59033242AA06F85006D0A6F /* Lottie */; };
 		D59033282AA1AE7B006D0A6F /* RateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59033272AA1AE7B006D0A6F /* RateAppView.swift */; };
 		D590332A2AA1B8E2006D0A6F /* rateAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = D59033292AA1B8E1006D0A6F /* rateAnimation.json */; };
+		D5B3AEFF2AA4FD3F00C2CC82 /* LeagueSpartan-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF22AA4FD3E00C2CC82 /* LeagueSpartan-VariableFont_wght.ttf */; };
+		D5B3AF002AA4FD3F00C2CC82 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF42AA4FD3E00C2CC82 /* LeagueSpartan-Medium.ttf */; };
+		D5B3AF012AA4FD3F00C2CC82 /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF52AA4FD3E00C2CC82 /* LeagueSpartan-ExtraBold.ttf */; };
+		D5B3AF022AA4FD3F00C2CC82 /* LeagueSpartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF62AA4FD3E00C2CC82 /* LeagueSpartan-Black.ttf */; };
+		D5B3AF032AA4FD3F00C2CC82 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF72AA4FD3E00C2CC82 /* LeagueSpartan-ExtraLight.ttf */; };
+		D5B3AF042AA4FD3F00C2CC82 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF82AA4FD3E00C2CC82 /* LeagueSpartan-Regular.ttf */; };
+		D5B3AF052AA4FD3F00C2CC82 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEF92AA4FD3E00C2CC82 /* LeagueSpartan-Light.ttf */; };
+		D5B3AF062AA4FD3F00C2CC82 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEFA2AA4FD3E00C2CC82 /* LeagueSpartan-Thin.ttf */; };
+		D5B3AF072AA4FD3F00C2CC82 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEFB2AA4FD3E00C2CC82 /* LeagueSpartan-SemiBold.ttf */; };
+		D5B3AF082AA4FD3F00C2CC82 /* LeagueSpartan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEFC2AA4FD3E00C2CC82 /* LeagueSpartan-Bold.ttf */; };
+		D5B3AF092AA4FD3F00C2CC82 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEFD2AA4FD3E00C2CC82 /* OFL.txt */; };
+		D5B3AF0A2AA4FD3F00C2CC82 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5B3AEFE2AA4FD3E00C2CC82 /* README.txt */; };
 		D5D986102A7A10C0001520F1 /* vocapic.json in Resources */ = {isa = PBXBuildFile; fileRef = D5D9860F2A7A10BF001520F1 /* vocapic.json */; };
 		D5E03FD62A9686D000E6A1C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */; };
 		D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */; };
@@ -118,6 +131,18 @@
 		D59033212AA06E7B006D0A6F /* animation_touch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_touch.json; sourceTree = "<group>"; };
 		D59033272AA1AE7B006D0A6F /* RateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppView.swift; sourceTree = "<group>"; };
 		D59033292AA1B8E1006D0A6F /* rateAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rateAnimation.json; sourceTree = "<group>"; };
+		D5B3AEF22AA4FD3E00C2CC82 /* LeagueSpartan-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D5B3AEF42AA4FD3E00C2CC82 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		D5B3AEF52AA4FD3E00C2CC82 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D5B3AEF62AA4FD3E00C2CC82 /* LeagueSpartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Black.ttf"; sourceTree = "<group>"; };
+		D5B3AEF72AA4FD3E00C2CC82 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D5B3AEF82AA4FD3E00C2CC82 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
+		D5B3AEF92AA4FD3E00C2CC82 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		D5B3AEFA2AA4FD3E00C2CC82 /* LeagueSpartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Thin.ttf"; sourceTree = "<group>"; };
+		D5B3AEFB2AA4FD3E00C2CC82 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5B3AEFC2AA4FD3E00C2CC82 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
+		D5B3AEFD2AA4FD3E00C2CC82 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		D5B3AEFE2AA4FD3E00C2CC82 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		D5D9860F2A7A10BF001520F1 /* vocapic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocapic.json; sourceTree = "<group>"; };
 		D5E03FD42A9686D000E6A1C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D5E03FD52A9686D000E6A1C6 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
@@ -129,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59033252AA06F85006D0A6F /* Lottie in Frameworks */,
+				D50291142AA6B50A00AD6F2D /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +342,7 @@
 		D59032802AA04AC4006D0A6F /* Utilis */ = {
 			isa = PBXGroup;
 			children = (
-				D59033292AA1B8E1006D0A6F /* rateAnimation.json */,
-				D59033212AA06E7B006D0A6F /* animation_touch.json */,
-				D59033072AA04C20006D0A6F /* OTF */,
+				D5B3AEF02AA4FD1A00C2CC82 /* Fonts */,
 			);
 			path = Utilis;
 			sourceTree = "<group>";
@@ -357,6 +381,44 @@
 			path = RateCustomView;
 			sourceTree = "<group>";
 		};
+		D5B3AEF02AA4FD1A00C2CC82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3AEF12AA4FD3E00C2CC82 /* League_Spartan */,
+				D59033072AA04C20006D0A6F /* OTF */,
+				D59033292AA1B8E1006D0A6F /* rateAnimation.json */,
+				D59033212AA06E7B006D0A6F /* animation_touch.json */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D5B3AEF12AA4FD3E00C2CC82 /* League_Spartan */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3AEF22AA4FD3E00C2CC82 /* LeagueSpartan-VariableFont_wght.ttf */,
+				D5B3AEF32AA4FD3E00C2CC82 /* static */,
+				D5B3AEFD2AA4FD3E00C2CC82 /* OFL.txt */,
+				D5B3AEFE2AA4FD3E00C2CC82 /* README.txt */,
+			);
+			path = League_Spartan;
+			sourceTree = "<group>";
+		};
+		D5B3AEF32AA4FD3E00C2CC82 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3AEF42AA4FD3E00C2CC82 /* LeagueSpartan-Medium.ttf */,
+				D5B3AEF52AA4FD3E00C2CC82 /* LeagueSpartan-ExtraBold.ttf */,
+				D5B3AEF62AA4FD3E00C2CC82 /* LeagueSpartan-Black.ttf */,
+				D5B3AEF72AA4FD3E00C2CC82 /* LeagueSpartan-ExtraLight.ttf */,
+				D5B3AEF82AA4FD3E00C2CC82 /* LeagueSpartan-Regular.ttf */,
+				D5B3AEF92AA4FD3E00C2CC82 /* LeagueSpartan-Light.ttf */,
+				D5B3AEFA2AA4FD3E00C2CC82 /* LeagueSpartan-Thin.ttf */,
+				D5B3AEFB2AA4FD3E00C2CC82 /* LeagueSpartan-SemiBold.ttf */,
+				D5B3AEFC2AA4FD3E00C2CC82 /* LeagueSpartan-Bold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,6 +437,7 @@
 			name = Vocapic;
 			packageProductDependencies = (
 				D59033242AA06F85006D0A6F /* Lottie */,
+				D50291132AA6B50A00AD6F2D /* Reachability */,
 			);
 			productName = Vocapic;
 			productReference = D52D597B2A763B1200B65B43 /* Vocapic.app */;
@@ -406,6 +469,7 @@
 			mainGroup = D52D59722A763B1200B65B43;
 			packageReferences = (
 				D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				D50291122AA6B50A00AD6F2D /* XCRemoteSwiftPackageReference "Reachability" */,
 			);
 			productRefGroup = D52D597C2A763B1200B65B43 /* Products */;
 			projectDirPath = "";
@@ -421,30 +485,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B3AF042AA4FD3F00C2CC82 /* LeagueSpartan-Regular.ttf in Resources */,
+				D5B3AF052AA4FD3F00C2CC82 /* LeagueSpartan-Light.ttf in Resources */,
 				D51333792A89156900666DFB /* DictionaryViewController.xib in Resources */,
 				D590327A2A9B6D94006D0A6F /* ContainerViewController.xib in Resources */,
+				D5B3AF082AA4FD3F00C2CC82 /* LeagueSpartan-Bold.ttf in Resources */,
 				D59033222AA06E7B006D0A6F /* animation_touch.json in Resources */,
 				D590331B2AA04C20006D0A6F /* Satoshi-Medium.otf in Resources */,
 				D52D599F2A7641E200B65B43 /* HomeCollectionViewCell.xib in Resources */,
 				D59033192AA04C20006D0A6F /* Satoshi-BlackItalic.otf in Resources */,
+				D5B3AF002AA4FD3F00C2CC82 /* LeagueSpartan-Medium.ttf in Resources */,
 				D59033122AA04C20006D0A6F /* Satoshi-Bold.otf in Resources */,
 				D5D986102A7A10C0001520F1 /* vocapic.json in Resources */,
 				D51333682A835B5E00666DFB /* DetailViewController.xib in Resources */,
+				D5B3AF032AA4FD3F00C2CC82 /* LeagueSpartan-ExtraLight.ttf in Resources */,
 				D59033132AA04C20006D0A6F /* Satoshi-Italic.otf in Resources */,
+				D5B3AF062AA4FD3F00C2CC82 /* LeagueSpartan-Thin.ttf in Resources */,
+				D5B3AF0A2AA4FD3F00C2CC82 /* README.txt in Resources */,
+				D5B3AEFF2AA4FD3F00C2CC82 /* LeagueSpartan-VariableFont_wght.ttf in Resources */,
 				D59033172AA04C20006D0A6F /* Satoshi-Light.otf in Resources */,
 				D59033152AA04C20006D0A6F /* Satoshi-Regular.otf in Resources */,
 				D52D598B2A763B1900B65B43 /* LaunchScreen.storyboard in Resources */,
 				D590332A2AA1B8E2006D0A6F /* rateAnimation.json in Resources */,
 				D52D59882A763B1900B65B43 /* Assets.xcassets in Resources */,
+				D5B3AF022AA4FD3F00C2CC82 /* LeagueSpartan-Black.ttf in Resources */,
 				D5E03FD72A9686D000E6A1C6 /* SettingsViewController.xib in Resources */,
 				D59033182AA04C20006D0A6F /* Satoshi-LightItalic.otf in Resources */,
 				D59033162AA04C20006D0A6F /* Satoshi-BoldItalic.otf in Resources */,
+				D5B3AF092AA4FD3F00C2CC82 /* OFL.txt in Resources */,
 				D52D59862A763B1200B65B43 /* Main.storyboard in Resources */,
 				D590327F2A9B6DE9006D0A6F /* SideMenuViewController.xib in Resources */,
 				D513337E2A8916D800666DFB /* DictionaryCell.xib in Resources */,
+				D5B3AF012AA4FD3F00C2CC82 /* LeagueSpartan-ExtraBold.ttf in Resources */,
 				D52D59962A763B8500B65B43 /* HomeViewController.xib in Resources */,
 				D59033202AA06B5B006D0A6F /* TutorialViewController.xib in Resources */,
 				D590331A2AA04C20006D0A6F /* Satoshi-MediumItalic.otf in Resources */,
+				D5B3AF072AA4FD3F00C2CC82 /* LeagueSpartan-SemiBold.ttf in Resources */,
 				D513336C2A835B9400666DFB /* DetailCollectionViewCell.xib in Resources */,
 				D59033142AA04C20006D0A6F /* Satoshi-Black.otf in Resources */,
 			);
@@ -634,12 +710,14 @@
 				DEVELOPMENT_TEAM = T7C6N2U8Z3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocapic/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = TableViewController;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,12 +741,14 @@
 				DEVELOPMENT_TEAM = T7C6N2U8Z3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vocapic/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = TableViewController;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -706,6 +786,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D50291122AA6B50A00AD6F2D /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
@@ -717,6 +805,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D50291132AA6B50A00AD6F2D /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D50291122AA6B50A00AD6F2D /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
 		D59033242AA06F85006D0A6F /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D59033232AA06F85006D0A6F /* XCRemoteSwiftPackageReference "lottie-spm" */;
