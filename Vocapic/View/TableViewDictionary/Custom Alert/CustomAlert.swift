@@ -11,12 +11,11 @@ import UIKit
 class CustomAlert: UIView {
         
     let doneBtn = UIButton()
-    var part = UIButton()
-    var part2 = UIButton()
+    let convertBtn = UIButton(type: .system)
+    let partLbl = UILabel()
+    let translation = UILabel()
     var titleLbl = UILabel()
-    var currentLanguage = "English -> Russian"
-    //let translation = UILabel()
-    
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -26,7 +25,7 @@ class CustomAlert: UIView {
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemPink.cgColor
         
-        doneBtn.setTitle("Save", for: .normal)
+        doneBtn.setTitle("Close", for: .normal)
         doneBtn.setTitleColor(.white, for: .normal)
         doneBtn.backgroundColor = UIColor.black
         doneBtn.titleLabel?.font = UIFont(name: "Satoshi-Bold", size: 17)
@@ -51,56 +50,76 @@ class CustomAlert: UIView {
             titleLbl.topAnchor.constraint(equalTo: topAnchor, constant: 20),
             titleLbl.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 0)
         ])
+       
+        partLbl.text = "English"
+        partLbl.font = UIFont(name: "Satoshi-Bold", size: 15)
+        partLbl.textColor = UIColor.white
+        partLbl.backgroundColor = UIColor.systemPink
+        partLbl.textAlignment = .center
+        partLbl.clipsToBounds = true
+        partLbl.layer.cornerRadius = 12
+        addSubview(partLbl)
         
-        part.setTitle(currentLanguage, for: .normal)
-        part.titleLabel?.font = UIFont(name: "Satoshi-Bold", size: 12)
-        part.titleLabel?.textAlignment = .center
-        part.contentHorizontalAlignment = .center
-        part.setTitleColor(UIColor.white, for: .normal)
-        part.backgroundColor = UIColor.systemPink
-        part.addTarget(self, action: #selector(partTapped), for: .touchUpInside)
-        
-        part.layer.cornerRadius = 6
-        part.clipsToBounds = true
-        
-        addSubview(part)
-        //addSubview(translation)
-        
-        part.translatesAutoresizingMaskIntoConstraints = false
+        partLbl.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            part.topAnchor.constraint(equalTo: titleLbl.bottomAnchor, constant: 40),
-            part.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 0),
-            part.heightAnchor.constraint(equalToConstant: 30),
-            part.widthAnchor.constraint(equalToConstant: 120)
+            partLbl.topAnchor.constraint(equalTo: titleLbl.bottomAnchor, constant: 50),
+            partLbl.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
+            partLbl.heightAnchor.constraint(equalToConstant: 40),
+            partLbl.widthAnchor.constraint(equalToConstant: 100)
         ])
         
-        part2.setTitle("Russian -> English", for: .normal)
-        part2.titleLabel?.font = UIFont(name: "Satoshi-Bold", size: 12)
-        part2.setTitleColor(UIColor.white, for: .normal)
-        part2.backgroundColor = UIColor.systemPink
-        part2.titleLabel?.textAlignment = .center
-
-        part2.addTarget(self, action: #selector(partTapped), for: .touchUpInside)
+        translation.text = "Russian"
+        translation.font = UIFont(name: "Satoshi-Bold", size: 15)
+        translation.textColor = UIColor.white
+        translation.backgroundColor = UIColor.systemPink
+        translation.textAlignment = .center
+        translation.clipsToBounds = true
+        translation.layer.cornerRadius = 12
+        addSubview(translation)
         
-        part2.layer.cornerRadius = 6
-        part2.clipsToBounds = true
-        
-        addSubview(part2)
-        //addSubview(translation)
-        
-        part2.translatesAutoresizingMaskIntoConstraints = false
+        translation.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            part2.topAnchor.constraint(equalTo: part.bottomAnchor, constant: 20),
-            part2.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 0),
-            part2.heightAnchor.constraint(equalToConstant: 30),
-            part2.widthAnchor.constraint(equalToConstant: 120)
-
+            translation.topAnchor.constraint(equalTo: titleLbl.bottomAnchor, constant: 50),
+            translation.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
+            translation.heightAnchor.constraint(equalToConstant: 40),
+            translation.widthAnchor.constraint(equalToConstant: 100)
         ])
+       
+        
+        convertBtn.setImage(UIImage(named: "convertBtn"), for: .normal)
+        convertBtn.tintColor = .white
+        convertBtn.backgroundColor = UIColor.systemPink
+        convertBtn.clipsToBounds = true
+        convertBtn.layer.cornerRadius = 12
+        convertBtn.addTarget(self, action: #selector(convertBtnTapped), for: .touchUpInside)
+        addSubview(convertBtn)
+        
+        convertBtn.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            convertBtn.centerYAnchor.constraint(equalTo: partLbl.centerYAnchor, constant: 0),
+            convertBtn.leftAnchor.constraint(equalTo: partLbl.rightAnchor, constant: 15),
+            convertBtn.rightAnchor.constraint(equalTo: translation.leftAnchor, constant: -15),
+            convertBtn.heightAnchor.constraint(equalToConstant: 30),
+        ])
+
         
     }
     
-    @objc func partTapped(){
-        currentLanguage = currentLanguage == "English - Russian" ? "Russian - English" : "English - Russian"
+    var check: Bool = true
+    
+    @objc func convertBtnTapped(){
+        print("ishladi")
+        
+        check.toggle()
+        
+        if check {
+            partLbl.text = "English"
+            translation.text = "Russian"
+        } else {
+            partLbl.text = "Russian"
+            translation.text = "English"
+        }
+        
     }
     
     required init?(coder: NSCoder) {

@@ -41,8 +41,9 @@ class DictionaryViewController: UIViewController {
     var selectedVocabulary: SubcategoryDetail?
     var vocabularies: [Vocabulary] = []
     
-    private let unsplashAccessKey = "lTUsZhE6strM1zJzxgw-gjPqjSwsDSP5_lcj5QtQOws"
+//    private let unsplashAccessKey = "lTUsZhE6strM1zJzxgw-gjPqjSwsDSP5_lcj5QtQOws"
     
+    private let unsplashAccessKey = "MiYBFRUMWlh_kZ3PhksAWMzqy5Mi66xYhvGPbpheeLI"
     var selectedMicIndex: Int?
     var selectedCellIndex: Int? = nil
 
@@ -213,7 +214,7 @@ extension DictionaryViewController: UITableViewDelegate, UITableViewDataSource {
         cell.lineLabel.textColor = indexPath.row == selectedCellIndex ? .white: .black
        
         
-        cell.micChange.setImage(indexPath.row == selectedMicIndex ? UIImage(systemName: "waveform.and.mic") : UIImage(systemName: "mic"), for: .normal)
+//        cell.micChange.setImage(indexPath.row == selectedMicIndex ? UIImage(systemName: "waveform.and.mic") : UIImage(systemName: "mic"), for: .normal)
 
          
         return cell
@@ -228,61 +229,61 @@ extension DictionaryViewController: UITableViewDelegate, UITableViewDataSource {
         
         
         // Spinner..
-        
-        let spinner = UIActivityIndicatorView(style: .medium)
-        
-        spinner.startAnimating()
-        
-        spinner.hidesWhenStopped = true
-        
-        spinner.color = .white
-        spinner.center = topImageView.center
-        topImageView.addSubview(spinner)
-        
-        guard let reachability = reachability, reachability.connection != .unavailable else {
-            let alert = UIAlertController(title: "No Internet Connection", message: "Please check your internet connection and try again.", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            present(alert, animated: true)
-            return
-        }
-        
-        tableView.deselectRow(at: indexPath, animated: true) // 4
-              
-        let selectedVocabulary = vocabularies[indexPath.row]
-          
-        let englishWord = selectedVocabulary.part // English word
-
-        fetchRandomPhoto(searchQuery: englishWord) { [weak self] result in
-              switch result {
-              case .success(let imageData):
-                    DispatchQueue.main.async {
-                        self?.topImageView.image = UIImage(data: imageData)
-                        spinner.stopAnimating()
-                    }
-              case .failure(let error):
-                    print("Error fetching photo: \(error)")
+            
+            let spinner = UIActivityIndicatorView(style: .medium)
+            
+            spinner.startAnimating()
+            
+            spinner.hidesWhenStopped = true
+            
+            spinner.color = .white
+            spinner.center = topImageView.center
+            topImageView.addSubview(spinner)
+            
+            guard let reachability = reachability, reachability.connection != .unavailable else {
+                let alert = UIAlertController(title: "No Internet Connection", message: "Please check your internet connection and try again.", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                present(alert, animated: true)
+                return
             }
-        }
-          
-        let englishUtterance = AVSpeechUtterance(string: selectedVocabulary.part) //6
-        englishUtterance.voice = AVSpeechSynthesisVoice(language: "en-US") //7
-        englishUtterance.rate = 0.5 //8
+            
+            tableView.deselectRow(at: indexPath, animated: true) // 4
+                  
+            let selectedVocabulary = vocabularies[indexPath.row]
+              
+            let englishWord = selectedVocabulary.part // English word
 
-        // Create a speech utterance for the second language (Russian)
-        let russianUtterance = AVSpeechUtterance(string: selectedVocabulary.translation) //9
-        russianUtterance.voice = AVSpeechSynthesisVoice(language: "ru-RU") // Russian voice //10
-        russianUtterance.rate = 0.5 // adjust //12
+            fetchRandomPhoto(searchQuery: englishWord) { [weak self] result in
+                  switch result {
+                  case .success(let imageData):
+                        DispatchQueue.main.async {
+                            self?.topImageView.image = UIImage(data: imageData)
+                            spinner.stopAnimating()
+                        }
+                  case .failure(let error):
+                        print("Error fetching photo: \(error)")
+                }
+            }
+              
+            let englishUtterance = AVSpeechUtterance(string: selectedVocabulary.part) //6
+            englishUtterance.voice = AVSpeechSynthesisVoice(language: "en-US") //7
+            englishUtterance.rate = 0.5 //8
 
-        // Speak the utterances
-        speechSynthesizer.speak(englishUtterance)
-        speechSynthesizer.speak(russianUtterance)
-         
-        selectedMicIndex = indexPath.row
-         
-        selectedCellIndex = indexPath.row
+            // Create a speech utterance for the second language (Russian)
+            let russianUtterance = AVSpeechUtterance(string: selectedVocabulary.translation) //9
+            russianUtterance.voice = AVSpeechSynthesisVoice(language: "ru-RU") // Russian voice //10
+            russianUtterance.rate = 0.5 // adjust //12
 
-                
-        tableView.reloadData()
+            // Speak the utterances
+            speechSynthesizer.speak(englishUtterance)
+            speechSynthesizer.speak(russianUtterance)
+             
+            selectedMicIndex = indexPath.row
+             
+            selectedCellIndex = indexPath.row
+
+                    
+            tableView.reloadData()
             
     }
 }
