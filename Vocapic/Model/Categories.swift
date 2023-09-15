@@ -37,9 +37,3 @@ struct Vocabulary: Codable {
 
 }
 
-//enum Image: String, Codable {
-//    case empty = ""
-//    case food = "food"
-//    case pathToChestImageJpg = "path/to/chest_image.jpg"
-//    case pathToNeckImageJpg = "path/to/neck_image.jpg"
-//}

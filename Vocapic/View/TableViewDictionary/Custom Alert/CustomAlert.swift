@@ -8,14 +8,20 @@
 import Foundation
 import UIKit
 
+enum Language {
+    case english
+    case russian
+}
+
 class CustomAlert: UIView {
+
         
     let doneBtn = UIButton()
     let convertBtn = UIButton(type: .system)
     let partLbl = UILabel()
     let translation = UILabel()
     var titleLbl = UILabel()
-        
+            
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -25,7 +31,7 @@ class CustomAlert: UIView {
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemPink.cgColor
         
-        doneBtn.setTitle("Close", for: .normal)
+        doneBtn.setTitle("Save", for: .normal)
         doneBtn.setTitleColor(.white, for: .normal)
         doneBtn.backgroundColor = UIColor.black
         doneBtn.titleLabel?.font = UIFont(name: "Satoshi-Bold", size: 17)
@@ -106,12 +112,11 @@ class CustomAlert: UIView {
     }
     
     var check: Bool = true
-    
-    @objc func convertBtnTapped(){
-        print("ishladi")
+        
+    @objc public func convertBtnTapped() {
         
         check.toggle()
-        
+
         if check {
             partLbl.text = "English"
             translation.text = "Russian"
@@ -119,8 +124,9 @@ class CustomAlert: UIView {
             partLbl.text = "Russian"
             translation.text = "English"
         }
-        
+
     }
+    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -128,7 +134,6 @@ class CustomAlert: UIView {
     
     @objc func doneBtnTapped(){
         removeFromSuperview()
-        
     }
     
 }

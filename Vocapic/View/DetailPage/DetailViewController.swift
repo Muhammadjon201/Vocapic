@@ -8,22 +8,27 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
-    var selectedCategory: CategoryDetail?
+    
+    //MARK: - OUTLETS
     
     @IBOutlet var detailTop: UIView! {
         didSet {
             detailTop.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         }
     }
+
+    @IBOutlet var detailCollection: UICollectionView!
+    @IBOutlet var categoryTitle: UILabel!
+        
+    //MARK: - DECLARATION
     
+    var selectedCategory: CategoryDetail?
     var subCategories: [SubcategoryDetail] = []
     
-    @IBOutlet var detailCollection: UICollectionView!
+    //MARK: - LIFECYCLE
     
-    
-    @IBOutlet var categoryTitle: UILabel!
     override func viewDidLoad() {
+        view.backgroundColor = UIColor.white
         super.viewDidLoad()
         setUI()
         populateSubcategories()
@@ -42,6 +47,8 @@ class DetailViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
+    
+    //MARK: - FUNCTION
     
     func populateSubcategories() {
            if let selectedCategory = selectedCategory {
@@ -66,12 +73,16 @@ class DetailViewController: UIViewController {
         detailCollection.register(UINib(nibName: "DetailCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "DetailCollectionViewCell")
     }
     
+    //MARK: - ACTION BUTTONS
+    
     @IBAction func backButtonTapped(_ sender: Any) {
         navigationController?.popViewController(animated: true)
         print("backkk")
     }
 
 }
+
+//MARK: - EXTENSION
 
 extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     

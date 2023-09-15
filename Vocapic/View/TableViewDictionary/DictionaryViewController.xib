@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,6 +17,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DictionaryViewController" customModule="Vocapic" customModuleProvider="target">
             <connections>
                 <outlet property="dictionaryTable" destination="5H4-t2-FuT" id="xOt-jr-1rX"/>
+                <outlet property="settingsButton" destination="9fV-tX-8bK" id="e0A-fD-dC1"/>
                 <outlet property="topImageView" destination="qfY-pX-G3R" id="jEM-wj-tUo"/>
                 <outlet property="topView" destination="N8n-HJ-vfT" id="j8n-x6-VCI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -31,7 +33,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dictionary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cja-t0-R8u">
-                            <rect key="frame" x="134.33333333333334" y="59" width="124.66666666666666" height="26"/>
+                            <rect key="frame" x="133.66666666666666" y="52.333333333333343" width="125.99999999999997" height="32.666666666666657"/>
                             <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="28"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -75,7 +77,7 @@
                     </constraints>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appearance" translatesAutoresizingMaskIntoConstraints="NO" id="qfY-pX-G3R">
-                    <rect key="frame" x="10" y="108" width="373" height="300"/>
+                    <rect key="frame" x="10" y="108.00000000000003" width="373" height="336.66666666666674"/>
                     <color key="backgroundColor" systemColor="systemPinkColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -84,7 +86,7 @@
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5H4-t2-FuT">
-                    <rect key="frame" x="0.0" y="423" width="393" height="395"/>
+                    <rect key="frame" x="0.0" y="459.66666666666674" width="393" height="392.33333333333326"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>

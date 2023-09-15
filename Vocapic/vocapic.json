@@ -2260,236 +2260,244 @@
                ]
             },
             {
-               "subcategory": "Fire Department",
-               "subcategoryImage": "firedepartment",
+               "subcategory": "Drug store",
+               "subcategoryImage": "drugstore",
                "vocabulary": [
                   {
-                     "part": "smoke",
-                     "translation": "дым",
-                     "image": "path/to/neck_image.jpg"
+                     "part": "dental care",
+                     "translation": "Стоматологическая помощь"
                   },
                   {
-                     "part": "helmet",
-                     "translation": "шлем",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "feminine hygine",
+                     "translation": "женская гигиена"
                   },
                   {
-                     "part": "water jet",
-                     "translation": "струя воды",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "deodorants",
+                     "translation": "дезодоранты"
                   },
                   {
-                     "part": "firefighters",
-                     "translation": "пожарные",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "vitamins",
+                     "translation": "витамины"
                   },
                   {
-                     "part": "ladder",
-                     "translation": "лестница",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "pharmacy",
+                     "translation": "аптека"
                   },
                   {
-                     "part": "firestation",
-                     "translation": "пожарная станция",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "pharmacist",
+                     "translation": "фармацевт"
                   },
                   {
-                     "part": "smoke alarm",
-                     "translation": "дымовая сигнализация",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "skin care",
+                     "translation": "уход за кожей"
                   },
                   {
-                     "part": "fire alarm",
-                     "translation": "Пожарная тревога",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "sunscreen",
+                     "translation": "солнцезащитный крем"
                   },
                   {
-                     "part": "ax",
-                     "translation": "топор",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "wet wipe",
+                     "translation": "влажные салфетки"
                   },
                   {
-                     "part": "fire extinguisher",
-                     "translation": "fire extinguisher",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "tissue",
+                     "translation": "салфетка"
                   },
                   {
-                     "part": "hydrant",
-                     "translation": "гидрант",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "napkit",
+                     "translation": "салфетка"
+                  },
+                  {
+                     "part": "tampon",
+                     "translation": "тампон"
+                  },
+                  {
+                     "part": "capsule",
+                     "translation": "капсула"
+                  },
+                  {
+                     "part": "measuring spoon",
+                     "translation": "мерная ложка"
+                  },
+                  {
+                     "part": "syrup",
+                     "translation": "сироп"
+                  },
+                  {
+                     "part": "inhaler",
+                     "translation": "ингалятор"
+                  },
+                  {
+                     "part": "drops",
+                     "translation": "капли"
+                  },
+                  {
+                     "part": "dropper",
+                     "translation": "капельница"
+                  },
+                  {
+                     "part": "needle",
+                     "translation": "иголка"
+                  },
+                  {
+                     "part": "syringe",
+                     "translation": "шприц"
+                  },
+                  {
+                     "part": "spray",
+                     "translation": "спрей"
+                  },
+                  {
+                     "part": "gel",
+                     "translation": "гель"
+                  },
+                  {
+                     "part": "ointment",
+                     "translation": "мазь"
+                  },
+                  {
+                     "part": "cream",
+                     "translation": "крем"
+                  },
+                  {
+                     "part": "powder",
+                     "translation": "пудра"
+                  },
+                  {
+                     "part": "medicine",
+                     "translation": "лекарство"
                   }
                ]
             },
             {
-               "subcategory": "Bank",
-               "subcategoryImage": "bank",
+               "subcategory": "Candy store",
+               "subcategoryImage": "candystore",
                "vocabulary": [
                   {
-                     "part": "customer",
-                     "translation": "клиент",
-                     "image": "path/to/neck_image.jpg"
+                     "part": "snack bar",
+                     "translation": "cнэк-бар"
                   },
                   {
-                     "part": "window",
-                     "translation": "окно",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "potato chips",
+                     "translation": "картофельные чипсы"
                   },
                   {
-                     "part": "teller",
-                     "translation": "кассир",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "cookie",
+                     "translation": "печенье"
                   },
                   {
-                     "part": "brochures",
-                     "translation": "брошюры",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "chocolate",
+                     "translation": "шоколад"
                   },
                   {
-                     "part": "counter",
-                     "translation": "прилавок",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "chocolate bar",
+                     "translation": "плитка шоколада"
                   },
                   {
-                     "part": "debit card",
-                     "translation": "дебетовая карточка",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "lollipop",
+                     "translation": "леденец"
                   },
                   {
-                     "part": "credit card",
-                     "translation": "кредитная карта",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "toffee",
+                     "translation": "ириска"
                   },
                   {
-                     "part": "account number",
-                     "translation": "номер счета",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "nougat",
+                     "translation": "нуга"
                   },
                   {
-                     "part": "signature",
-                     "translation": "подпись",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "marshmallow",
+                     "translation": "зефир"
                   },
                   {
-                     "part": "amount",
-                     "translation": "сумма",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "mint",
+                     "translation": "мята"
                   },
                   {
-                     "part": "coin",
-                     "translation": "монета",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "chewing gum",
+                     "translation": "жевательная резинка"
                   },
                   {
-                     "part": "exchange rate",
-                     "translation": "обменный курс",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "jellybean",
+                     "translation": "жевательные конфеты"
                   },
                   {
-                     "part": "stock price",
-                     "translation": "цена акции",
-                     "image": "path/to/chest_image.jpg"
-                  },
-                  {
-                     "part": "stockbroker",
-                     "translation": "биржевой маклер",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "licorice",
+                     "translation": "солодка"
                   }
                ]
             },
             {
-               "subcategory": "Communication",
-               "subcategoryImage": "communication",
+               "subcategory": "Other stores",
+               "subcategoryImage": "otherstores",
                "vocabulary": [
                   {
-                     "part": "postal worker",
-                     "translation": "почтальон",
-                     "image": "path/to/neck_image.jpg"
+                     "part": "bakery",
+                     "translation": "пекарня"
                   },
                   {
-                     "part": "postmark",
-                     "translation": "почтовый штемпель",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "pastry shop",
+                     "translation": "кондитерская"
                   },
                   {
-                     "part": "address",
-                     "translation": "адрес",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "butchershop",
+                     "translation": "Мясная лавка"
                   },
                   {
-                     "part": "stamp",
-                     "translation": "печать",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "fishmonger",
+                     "translation": "торговец рыбой"
                   },
                   {
-                     "part": "zip code",
-                     "translation": "почтовый индекс",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "greengrocer",
+                     "translation": "зеленщик"
                   },
                   {
-                     "part": "mailbox",
-                     "translation": "почтовый ящик",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "grocery store",
+                     "translation": "продуктовый магазин"
                   },
                   {
-                     "part": "parcel",
-                     "translation": "посылка",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "shoe store",
+                     "translation": "обувной магазин"
                   },
                   {
-                     "part": "courier",
-                     "translation": "курьер",
-                     "image": "path/to/chest_image.jpg"
-                  }
-               ]
-            },
-            {
-               "subcategory": "Hotel",
-               "subcategoryImage": "hotel",
-               "vocabulary": [
-                  {
-                     "part": "lobby",
-                     "translation": "лобби",
-                     "image": "sports"
+                     "part": "hardware store",
+                     "translation": "хозяйственный магазин"
                   },
                   {
-                     "part": "guest",
-                     "translation": "гость",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "antique shop",
+                     "translation": "антикварный магазин"
                   },
                   {
-                     "part": "room key",
-                     "translation": "ключ от комнаты",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "gift shop",
+                     "translation": "магазин подарков"
                   },
                   {
-                     "part": "messages",
-                     "translation": "Сообщения",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "travel agent",
+                     "translation": "тур-агент"
                   },
                   {
-                     "part": "receptionist",
-                     "translation": "регистратор",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "jeweler",
+                     "translation": "ювелир"
                   },
                   {
-                     "part": "porter",
-                     "translation": "швейцар",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "bookstore",
+                     "translation": "книжный магазин"
                   },
                   {
-                     "part": "luggage",
-                     "translation": "багаж",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "pet store",
+                     "translation": "зоомагазин"
                   },
                   {
-                     "part": "elevator",
-                     "translation": "лифт",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "furniture store",
+                     "translation": "мебельный магазин"
                   },
                   {
-                     "part": "room number",
-                     "translation": "номер комнаты",
-                     "image": "path/to/chest_image.jpg"
+                     "part": "boutique",
+                     "translation": "бутик"
+                  },
+                  {
+                     "part": "salon",
+                     "translation": "салон"
                   }
                ]
             }

@@ -10,6 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    //MARK: - OUTLETS
+    
     @IBOutlet weak var sideMenu: UIButton!
     
     @IBOutlet weak var starButton: UIButton!
@@ -19,12 +21,30 @@ class HomeViewController: UIViewController {
             topView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         }
     }
+        
+    @IBOutlet var homecollectionView: UICollectionView!
+
+    //MARK: ACTION BUTTONS
+
+    @IBAction func starTap(_ sender: Any) {
+        print("action")
+        
+    }
+    
+    @IBAction func menuBtnTapped(_ sender: Any) {
+        
+        let vc = ContainerViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    //MARK: - DECLARATION
     
     var categories: [CategoryDetail] = []
     
-    @IBOutlet var homecollectionView: UICollectionView!
-
+    //MARK: - LIFECYCLE
+    
     override func viewDidLoad() {
+        view.backgroundColor = UIColor.white
         super.viewDidLoad()
         homecollectionView.delegate = self
         homecollectionView.dataSource = self
@@ -49,23 +69,8 @@ class HomeViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
-
-    @IBAction func starTap(_ sender: Any) {
-        print("action")
-            
-//        let rateApp = RateAppView(frame: CGRect(x: 0, y: 0, width: 300, height: 400))
-//        rateApp.center = view.center
-//        view.addSubview(rateApp)
-        
-    }
     
-    
-    @IBAction func menuBtnTapped(_ sender: Any) {
-        
-        let vc = ContainerViewController()
-        navigationController?.pushViewController(vc, animated: true)
-        
-    }
+    //MARK: - FUNCTIONS
     
     func parseJson() {
         if let fileLocation = Bundle.main.url(forResource: "vocapic", withExtension: "json") {
@@ -84,6 +89,8 @@ class HomeViewController: UIViewController {
     }
     
 }
+
+//MARK: - EXTENSION
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     

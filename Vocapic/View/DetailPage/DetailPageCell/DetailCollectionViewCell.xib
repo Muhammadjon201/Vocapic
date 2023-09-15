@@ -8,59 +8,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Satoshi-Bold.otf">
-            <string>Satoshi-Bold</string>
+        <array key="LeagueSpartan-VariableFont_wght.ttf">
+            <string>LeagueSpartan-Medium</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DetailCollectionViewCell" customModule="Vocapic" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="281" height="98"/>
+            <rect key="frame" x="0.0" y="0.0" width="453" height="170"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="281" height="98"/>
+                <rect key="frame" x="0.0" y="0.0" width="453" height="170"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B8L-dM-ku4">
-                        <rect key="frame" x="0.0" y="5" width="281" height="88"/>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B8L-dM-ku4">
+                        <rect key="frame" x="0.0" y="5" width="453" height="160"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appearance" translatesAutoresizingMaskIntoConstraints="NO" id="Eyg-Ao-WSv">
-                                <rect key="frame" x="4" y="4" width="110" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="110" id="vPG-8f-8cY"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people2" translatesAutoresizingMaskIntoConstraints="NO" id="QVB-QR-j40">
+                                <rect key="frame" x="0.0" y="0.0" width="453" height="160"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfV-Nh-FyL">
-                                <rect key="frame" x="124" y="29" width="114.66666666666669" height="30"/>
-                                <fontDescription key="fontDescription" name="Satoshi-Bold" family="Satoshi" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqC-Ug-wYn">
+                                <rect key="frame" x="5" y="136.33333333333334" width="45.333333333333336" height="18.666666666666657"/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Medium" family="League Spartan" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" translatesAutoresizingMaskIntoConstraints="NO" id="gLZ-4M-W2a">
-                                <rect key="frame" x="248.66666666666666" y="31.666666666666664" width="12.333333333333343" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="12.5" id="5pM-NI-noe"/>
-                                    <constraint firstAttribute="height" constant="25" id="gAN-F0-rDi"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="gLZ-4M-W2a" firstAttribute="leading" secondItem="PfV-Nh-FyL" secondAttribute="trailing" constant="10" id="9eN-jz-HKH"/>
-                            <constraint firstItem="Eyg-Ao-WSv" firstAttribute="top" secondItem="B8L-dM-ku4" secondAttribute="top" constant="4" id="EJD-ZA-AHd"/>
-                            <constraint firstAttribute="trailing" secondItem="gLZ-4M-W2a" secondAttribute="trailing" constant="20" id="J5w-nU-1uB"/>
-                            <constraint firstItem="PfV-Nh-FyL" firstAttribute="leading" secondItem="Eyg-Ao-WSv" secondAttribute="trailing" constant="10" id="Lb6-4z-n4y"/>
-                            <constraint firstItem="Eyg-Ao-WSv" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="PjP-vG-mNT"/>
-                            <constraint firstItem="PfV-Nh-FyL" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="gyv-eD-O4D"/>
-                            <constraint firstAttribute="bottom" secondItem="Eyg-Ao-WSv" secondAttribute="bottom" constant="4" id="iKR-M9-QwC"/>
-                            <constraint firstItem="Eyg-Ao-WSv" firstAttribute="leading" secondItem="B8L-dM-ku4" secondAttribute="leading" constant="4" id="qfd-ny-hF9"/>
-                            <constraint firstItem="gLZ-4M-W2a" firstAttribute="centerY" secondItem="B8L-dM-ku4" secondAttribute="centerY" id="s6g-u9-eEu"/>
+                            <constraint firstItem="QVB-QR-j40" firstAttribute="leading" secondItem="B8L-dM-ku4" secondAttribute="leading" id="ALa-aP-14m"/>
+                            <constraint firstAttribute="trailing" secondItem="QVB-QR-j40" secondAttribute="trailing" id="U2b-2Z-Att"/>
+                            <constraint firstItem="QVB-QR-j40" firstAttribute="top" secondItem="B8L-dM-ku4" secondAttribute="top" id="ZcN-8P-TGM"/>
+                            <constraint firstAttribute="bottom" secondItem="QVB-QR-j40" secondAttribute="bottom" id="kMn-Xo-4im"/>
+                            <constraint firstItem="dqC-Ug-wYn" firstAttribute="leading" secondItem="B8L-dM-ku4" secondAttribute="leading" constant="5" id="sua-3C-Fki"/>
+                            <constraint firstAttribute="bottom" secondItem="dqC-Ug-wYn" secondAttribute="bottom" constant="5" id="v8e-eH-tIr"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -77,18 +64,16 @@
                 <constraint firstAttribute="trailing" secondItem="B8L-dM-ku4" secondAttribute="trailing" id="cc3-Cj-LO0"/>
                 <constraint firstItem="B8L-dM-ku4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zEP-ZQ-oO8"/>
             </constraints>
-            <size key="customSize" width="281" height="98"/>
+            <size key="customSize" width="453" height="170"/>
             <connections>
-                <outlet property="detailArrowImage" destination="gLZ-4M-W2a" id="2WD-py-Fc3"/>
                 <outlet property="detailBackground" destination="B8L-dM-ku4" id="X0i-Sk-oWD"/>
-                <outlet property="detailImageView" destination="Eyg-Ao-WSv" id="cmd-uO-7UU"/>
-                <outlet property="detailLabel" destination="PfV-Nh-FyL" id="X65-t9-UbT"/>
+                <outlet property="detailImageView" destination="QVB-QR-j40" id="VFG-c0-5IA"/>
+                <outlet property="detailLabel" destination="dqC-Ug-wYn" id="H6B-fu-EaP"/>
             </connections>
-            <point key="canvasLocation" x="165.64885496183206" y="2.8169014084507045"/>
+            <point key="canvasLocation" x="168.70229007633588" y="-45.070422535211272"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="appearance" width="4000" height="6000"/>
-        <image name="arrowRight" width="18" height="31"/>
+        <image name="people2" width="5090" height="3393"/>
     </resources>
 </document>

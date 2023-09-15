@@ -15,7 +15,7 @@ class HomeCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        contentView.backgroundColor = UIColor.white
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.homeBackgroundImage.bounds
         gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]

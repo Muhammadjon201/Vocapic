@@ -16,11 +16,23 @@ class DetailCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var detailLabel: UILabel!
     
-    @IBOutlet var detailArrowImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        contentView.backgroundColor = UIColor.white
+        detailBackground.layer.shadowColor = UIColor.black.cgColor
+        detailBackground.layer.shadowOpacity = 1
+        detailBackground.layer.shadowOffset = .zero
+        detailBackground.layer.shadowRadius = 10
+        //detailBackground.layer.borderColor = UIColor.black.cgColor
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.detailImageView.bounds
+        gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
+        gradientLayer.locations = [0, 1]
+        gradientLayer.opacity = 0.3
+        self.detailImageView.layer.addSublayer(gradientLayer)
+        
     }
     
     func updateDetailPage(data: SubcategoryDetail) {
