@@ -72,12 +72,9 @@ class DictionaryCell: UITableViewCell {
     var micButtonTapAction: (() -> Void)?
     
     public func update(data: Vocabulary){
-        if convertTap?.check ?? true { // Check the state of convertTap
-                   firstLanguage.text = data.part
-                   secondLanguage.text = data.translation
-               } else {
-                   firstLanguage.text = data.translation
-                   secondLanguage.text = data.part
-               }
+       // Check the state of convertTap
+           firstLanguage.text = data.part
+           secondLanguage.text = data.translation
+           
     }
 }

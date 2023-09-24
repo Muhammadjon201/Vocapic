@@ -66,7 +66,7 @@ class DictionaryViewController: UIViewController {
     var selectedMicIndex: Int?
     var selectedCellIndex: Int? = nil
     private let unsplashAccessKey = "MiYBFRUMWlh_kZ3PhksAWMzqy5Mi66xYhvGPbpheeLI"
-    
+
     //MARK: - LIFECYCLE
 
     override func viewDidLoad() {
@@ -183,7 +183,6 @@ class DictionaryViewController: UIViewController {
            }
            task.resume()
        }
-     
 }
 
     //MARK: - EXTENSION

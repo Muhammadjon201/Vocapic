@@ -8,19 +8,20 @@
 import Foundation
 import UIKit
 
-enum Language {
-    case english
-    case russian
-}
+//enum Language {
+//    case english
+//    case russian
+//}
 
 class CustomAlert: UIView {
 
-        
     let doneBtn = UIButton()
     let convertBtn = UIButton(type: .system)
     let partLbl = UILabel()
     let translation = UILabel()
     var titleLbl = UILabel()
+    
+    weak var dictionaryVC: DictionaryViewController?
             
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -124,7 +125,7 @@ class CustomAlert: UIView {
             partLbl.text = "Russian"
             translation.text = "English"
         }
-
+        
     }
     
     
